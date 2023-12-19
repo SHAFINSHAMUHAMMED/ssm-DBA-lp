@@ -1,0 +1,242 @@
+.leaders-top-main {
+    width: 880px;
+    background-color: #24B97426;
+    margin: auto;
+    padding: 71px 82px 52px 78px ;
+    position: relative;
+    border-top-left-radius: 48px;
+    border-top-right-radius: 48px;
+
+}
+.leaders-top-icon {
+    width: 64px;
+    height: 3px;
+    background-color:#009CB3 ;
+}
+.leaders-top-main h2 {
+    width: 720px;
+    padding: 13px 0px 27px 0px;
+}
+.leaders-top-main p {
+    width: 575px;
+    padding-bottom: 38px;
+    margin: auto;
+}
+.leaders-top-main h6 {
+    width: 575px;
+    font-family: 'SK Modernist Bold';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 136%;
+    margin: auto;
+}
+.pattern {
+    position: absolute;
+    top: 50%;
+    right: -5%;
+}
+
+.leaders-bottom-main {
+    width: 1046px;
+    margin: auto;
+    border-radius: 68px;
+    background: #FFFF;
+    padding:36px 0px 0px 0px ;
+    box-shadow: 0px 31px 51.8px 15px rgba(165, 191, 194, 0.30);
+}
+.card-section-main {
+    width: 95%;
+    margin: auto;
+}
+.card-sections {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.acredits-marquee-2 {
+    display: none;
+  }
+.card {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+    border-radius: 25.426px;
+    background: #FFF;
+    box-shadow: 0px 28.816px 60.174px 0px rgba(0, 0, 0, 0.12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.glob {
+    margin-top: 50px;
+    z-index: -1;
+}
+.leaders-bottom-main p {
+    width:600px;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 1180px) {
+    .leaders-top-main {
+        width: 80%;
+        padding: 41px 52px 32px 58px ;
+        position: relative;
+    }
+    .leaders-top-main h2 {
+        width: 90%;
+        padding: 13px 0px 27px 0px;
+    }
+    .leaders-top-main p {
+        width: 90%;
+        padding-bottom: 28px;
+    }
+    .leaders-top-main h6 {
+        width: 90%;
+        font-size: 16px;
+        text-align: left;
+    }
+    .pattern {
+        width: 90px;
+        position: absolute;
+        top: 40%;
+        right: -5%;
+    }
+
+    .leaders-bottom-main {
+        width: 100%;
+        margin: auto;
+        border-radius: 68px;
+        padding:36px 0px 0px 0px ;
+    }
+    .card-section-main {
+        width: 100%;
+        margin: auto;
+    }
+    .card-sections {
+        display: none;
+       
+    }
+    .acredits-marquee-2 {
+        display: block;
+    }
+    .accredit-cards {
+        display: flex;
+        justify-content: center;
+        gap: 4px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+      }
+    
+      .accredit-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 165px;
+        height: 90px;
+        margin-left: 3px;
+        margin-right: 3px;
+        border-radius: 14.533px;
+        background: #FFF;
+        box-shadow: none;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+      }
+    
+      .accredit-card-img {
+        width: 110px;
+        height: 70px;
+      }
+    
+      .accredit-cards .accredit-card:first-child {
+        margin-left: 8px;
+      }
+      .glob {
+        margin-top: 0px;
+    }
+    .leaders-bottom-main p {
+        width:70%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .leaders-top-main {
+        width: 90%;
+        padding: 34px 0px 30px 0px ;
+        border-top-left-radius: 38px;
+    border-top-right-radius: 38px;
+    }
+    .leaders-top-icon {
+        width: 64px;
+        height: 3px
+    }
+    .leaders-top-main h2 {
+        width: 90%;
+        padding: 13px 0px 18px 0px;
+        margin: auto;
+    }
+    .leaders-top-main p {
+        width: 90%;
+        padding-bottom: 15px;
+    }
+    .leaders-top-main h6 {
+        width: 90%;
+        font-size: 14px;
+        text-align: left;
+    }
+    .pattern {
+        display: none;
+    }
+
+    .leaders-bottom-main {
+        width: 100%;
+        background-color: #ffffff;
+        border-radius: 68px;
+        padding:53px 0px 0px 0px ;
+        margin-top: -10px;
+    }
+    .card-section-main {
+        width: 100%;
+        margin: auto;
+    }
+    .card-sections {
+        display: none;
+       
+    }
+    .accredit-cards {
+        gap: 2px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+      }
+    
+      .accredit-card {
+        width: 92px;
+        height: 55px;
+        margin-left: 3px;
+        margin-right: 3px;
+        border-radius: 14.533px;
+        background: #FFF;
+        box-shadow: none;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+      }
+    
+      .accredit-card-img {
+        width: 87px;
+        height: 51px;
+      }
+    
+      .accredit-cards .accredit-card:first-child {
+        margin-left: 4px;
+      }
+      .glob {
+        margin-top: 0px;
+    }
+    .leaders-bottom-main p {
+        width:90%;
+    }
+}
