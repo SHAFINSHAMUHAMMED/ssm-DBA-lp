@@ -213,7 +213,30 @@ button {
   background-repeat: no-repeat;
   background-position: bottom;
 }
-
+.underline-blue {
+  background-image: url('./assets/svg/underline_blue.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 0.6rem;
+  position: relative;
+  text-decoration: none;
+}
+.underline-green {
+  background-image: url('./assets/svg/underline_greensvg.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  position: relative;
+  text-decoration: none;
+}
+.underline-green-large {
+  background-image: url('./assets/svg/underline_green.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  text-decoration: none;
+}
 .blur-effect {
   filter: opacity(.3);
 }
@@ -234,6 +257,7 @@ button {
     font-weight: 400;
     line-height: 136%; /* 24.48px */
   }
+
 /* /////animations\\\\\\ */
 
 .light-effect-button {

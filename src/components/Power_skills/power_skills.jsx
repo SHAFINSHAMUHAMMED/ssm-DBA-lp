@@ -14,7 +14,7 @@ function power_skills() {
   return (
     <div className="power-skill-main">
       <h2 className="main-head-h2">
-        Elevate Your Career: Six Game-Changing Reasons to Invest in DBA
+        Elevate Your Career: <span className="underline-blue">Six Game-Changing Reasons </span>to Invest in DBA
       </h2>
 
       <div className="power-skill-cards">

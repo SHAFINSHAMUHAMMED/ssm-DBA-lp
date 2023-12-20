@@ -1,0 +1,230 @@
+.members-main {
+    max-width: 1277px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 38px;
+
+}
+
+.members-card {
+    width: 827px;
+    height: 652px;
+    margin: auto;
+    background-color: #0E7D8D;
+    border-radius: 48px;
+    padding-top: 53px;
+}
+
+.members-card h2 {
+    width: 538px;
+    margin: auto;
+    color: white;
+}
+
+.members-carousel {
+    width: 100%;
+    height: 431px;
+    position: absolute;
+    bottom: 0;
+}
+
+.members-carousel .carousel-container {
+    height: 100%;
+    border-radius: 48px;
+
+}
+
+.members-carousel .carousel-img {
+    width: 359px;
+    height: 431px;
+    
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.carousel-caption h4 {
+    color: #FFF;
+    font-family: 'SK Modernist Bold';
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 136%;
+}
+
+.carousel-caption p {
+    color: #FFF;
+    font-family: 'SK Modernist Regular';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136%;
+}
+
+.members-carousel .custom-prev-button svg,
+.members-carousel .custom-next-button svg {
+    width: 59px;
+    height: 59px;
+    position: absolute;
+    top: 0%;
+}
+
+.members-carousel .custom-prev-button {
+    left: -30px;
+    z-index: 5;
+}
+
+.members-carousel .custom-next-button {
+    right: -30px;
+    z-index: 5;
+}
+.members-carousel .react-multi-carousel-track {
+    gap: 10px;
+    margin-left: -50px;
+}
+
+@media only screen and (max-width: 1180px) {
+    .members-main {
+        max-width: 100%;
+
+    }
+
+    .members-card {
+        width: 80%;
+        height: 570px;
+        border-radius: 40px;
+        padding-top: 50px;
+    }
+
+    .members-card h2 {
+        width: 90%;
+    }
+
+    .members-carousel {
+        width: 100%;
+        height: 411px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .members-carousel .carousel-container {
+        height: 100%;
+        border-radius: 0px;
+
+    }
+
+    .members-carousel .carousel-img {
+        width: 329px;
+        height: 411px;
+    }
+
+    .carousel-caption {
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .carousel-caption h4 {
+        font-size: 25px;
+    }
+
+    .carousel-caption p {
+        font-size: 20px;
+    }
+
+    .members-carousel .custom-prev-button svg,
+    .members-carousel .custom-next-button svg {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .members-carousel .custom-prev-button {
+        left: -0px;
+    }
+
+    .members-carousel .custom-next-button {
+        right: 10px;
+    }
+    .members-carousel .react-multi-carousel-track {
+        gap: 5px;
+        margin-left: -40px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .members-main {
+        max-width: 100%;
+        margin-bottom: 24px;
+
+
+    }
+
+    .members-card {
+        width: 90%;
+        height: 188px;
+        border-radius: 0px;
+        border-top-left-radius: 34px;
+        border-top-right-radius: 34px;
+        padding-top: 40px;
+    }
+
+    .members-card h2 {
+        width: 90%;
+    }
+
+    .members-carousel {
+        width: 100%;
+        height: 257px;
+        position: relative;
+
+    }
+
+    .members-carousel .carousel-container {
+        height: 100%;
+        border-radius: 0px;
+
+    }
+
+    .members-carousel .carousel-img {
+        height: 257px;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .carousel-caption h4 {
+        font-size: 16px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+
+    .members-carousel .custom-prev-button svg,
+    .members-carousel .custom-next-button svg {
+        display: none;
+    }
+    .members-carousel .react-multi-carousel-track {
+        gap: 2px;
+        margin-left: -10px;
+    }
+
+}

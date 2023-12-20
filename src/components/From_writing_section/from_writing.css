@@ -1,0 +1,196 @@
+.from-writing-main {
+    position: relative;
+    margin-top: 110px;
+  } 
+  
+  .from-writing-inner {
+    max-width: 1180px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+  
+  .from-writing-inner-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .from-writing-inner h2 {
+    color: #0B434B;
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: left;
+  }
+  .headding-section {
+    position: relative;
+  }
+  .arrow-icon {
+    position: absolute;
+    bottom: 30%;
+    left: 32%;
+    
+  }
+  .from-writing-p {
+    width: 485px;
+    padding: 0px 0px 40px 0px;
+    color: #0B434B;;
+  }
+  .from-writing-img-main {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
+  .from-writing-img-main2 {
+    display: none;
+  }
+  .from-writing-svg {
+    position: absolute;
+    left: -2%;
+    bottom: -10%;
+  }
+  .from-writing-img-1 {
+    display: none;
+  }
+  
+  .from-writing-img-2 {
+    display: block;
+    width: 512px;
+    /* height: 986px; */
+  }
+  .from-writing-button {
+    margin-top: 10px;
+  }
+
+@media only screen and (max-width: 1180px) {
+    .from-writing-main {
+        margin-top: 40px;
+
+      }
+    
+      .from-writing-inner {
+        flex-direction: column;
+        max-width: 100%;
+        padding: 20px 10px 30px 10px;
+      }
+    
+      .from-writing-inner-1 {
+        align-items: center;
+      }
+    
+      .from-writing-img-1 {
+        display: block;
+        width: 60%;
+      }
+    
+      .from-writing-img-2 {
+        display: none;
+    
+      }
+    
+      .from-writing-inner h2 {
+        text-align: left;
+        padding: 0px 20px 30px 20px;
+      }
+      .arrow-icon {
+        position: absolute;
+        width:120px ;
+        height: 85px;
+        bottom: 35%;
+        left: 32%;
+        
+      }
+      .from-writing-p {
+        width: 70%;
+        margin-bottom: 20px;
+        padding: 20px 20px 0px 20px;
+      }
+      .from-writing-img-main {
+       display: none;
+      }
+      .from-writing-img-main2 {
+
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-bottom:50px ;
+      }
+      .from-writing-svg {
+        position: absolute;
+        width:250px ;
+        height:170px ;
+        left: 3.5%;
+        bottom: -8%;
+      }
+      .from-writing-button {
+        margin-top: 40px;
+      }
+}
+@media only screen and (max-width: 640px) {
+    .from-writing-main {
+        margin-top: 40px;
+      }
+    
+      .from-writing-inner {
+        padding: 0px 0px 30px 0px;
+      }
+    
+      /* .from-writing-inner-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      } */
+    
+      .from-writing-img-1 {
+        width: 80%;
+      }
+    
+      .from-writing-img-2 {
+        display: none;
+    
+      }
+    
+      .from-writing-inner h2 {
+        text-align: left;
+        padding: 0px 0px 26px 0px;
+      }
+      .arrow-icon {
+        position: absolute;
+        width:101px ;
+        height: 70px;
+        bottom: 35%;
+        left: 32%;
+        
+      }
+      .from-writing-p {
+        width: 80%;
+        margin-bottom: 20px;
+        padding: 0px 0px 0px 0px;
+      }
+      .from-writing-img-main {
+        display: none;
+       }
+       .from-writing-img-main2 {
+         display: flex;
+         justify-content: flex-end;
+         position: relative;
+         margin-bottom:66px ;
+         width: 90%;
+       }
+       .from-writing-svg {
+         position: absolute;
+         width:181px ;
+         height:107px ;
+         left: -10%;
+         bottom: -6%;
+       }
+       .from-writing-button {
+         margin-top: 10px;
+       }
+}

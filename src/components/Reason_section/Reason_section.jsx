@@ -1,15 +1,19 @@
 import React from "react";
 import "./reason.css";
+import Button from '../Buttons/buttonDark'
+import Claim_description from "../Description/claim_description";
 
 import cola from "../../assets/cola-logo.webp";
 import pattern from "../../assets/svg/patter.svg";
 import bottom_img from '../../assets/reason-bottom.webp'
 import bottom_img_mob from '../../assets/reason-bottom-mob.webp'
 import flexibility from '../../assets/svg/flexibility.svg'
+import critical from '../../assets/svg/criticalthinkinig.svg'
+import market from '../../assets/svg/market.svg'
 
 function Reason_section() {
   return (
-    <div>
+    <div className="reason-main">
       <div className="reason-top-section">
         <h2 className="main-head-h2">
           <span className="highlight-green">Why</span> Choose{" "}
@@ -111,7 +115,7 @@ function Reason_section() {
           company decisions. <br />  Because of weak management, businesses that
           were once profitable touch 0 quickly. <br />
           <br />
-          But companies that survived followed the 1 step called discipline.{" "}
+          But companies that survived followed the 1 step called <span className="underline-green">discipline.</span>{" "}
           <br />
           <br />
           A disciplined work culture teaches employees to never lose hope {" "}
@@ -130,7 +134,8 @@ function Reason_section() {
       <div className="reason-bottom-section">
         <img className="reason-bottom-img" src={bottom_img} alt="" />
         <img className="reason-bottom-img-mob" src={bottom_img_mob} alt="" />
-
+        <div className="reason-bottom-cards">
+            {/* 1 */}
             <div className="reason-bottom-card">
            <img src={flexibility} alt="" />
                 <div className="reason-bottom-card-content">
@@ -138,7 +143,29 @@ function Reason_section() {
                     <p className="main-p">The degree blends into your workflow, enabling higher levels of productivity. </p>
                 </div>
             </div>
+            {/* 2 */}
+            <div className="reason-bottom-card">
+           <img src={critical} alt="" />
+                <div className="reason-bottom-card-content">
+                    <h6>Critical thinking:  </h6>
+                    <p className="main-p">Solve complex business issues with the help of our Data Analysis tools, and generate research faster than your peers </p>
+                </div>
+            </div>
+            {/* 3 */}
+            <div className="reason-bottom-card">
+           <img src={market} alt="" />
+                <div className="reason-bottom-card-content">
+                    <h6>Rise in Market value:  </h6>
+                    <p className="main-p">MBA grads have a rough time landing corporate leadership roles because recruiters always put up DBA individuals above MBA holders during the screening. Employers <span className="underline-green-large"> no longer need general managers </span> and look for individual leaders specialised in a field. </p>
+                </div>
+            </div>
+            </div>
       </div>
+      <Button
+        duration={2500}
+        containerStyle={{ justifyContent: "center" }}
+      />
+      <Claim_description color="rgba(11, 67, 75, 0.79)" />
     </div>
   );
 }
