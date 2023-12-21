@@ -2,6 +2,12 @@ import React from 'react'
 import './why_dba.css'
 
 import key from '../../assets/svg/Dba-key-icon.svg'
+import why1 from '../../assets/svg/why-dba1.svg'
+import why2 from '../../assets/svg/why-dba2.svg'
+import why3 from '../../assets/svg/why-dba3.svg'
+import why4 from '../../assets/svg/why-dba4.svg'
+import why5 from '../../assets/svg/why-dba5.svg'
+
 function why_dba() {
   return (
     <div className='why-dba-main'>
@@ -50,6 +56,96 @@ function why_dba() {
             stroke-width="2"
           />
         </svg>
+        </div>
+        <div className='why-dba-bottom'>
+        <div className="why-dba-inner-container">
+          <div className="why-dba-inner-flex">
+            <img className="why-dba-inner-icon" src={why1} alt="img" />
+            <h4 className="">
+              Less Commitment & Program Duration:
+              </h4>
+          </div>
+          <div className="why-dba-p">
+              
+              <p className='main-p'>DBA program lasts 24 months (2 years).</p>
+              <p className='main-p'>You can take classes on weekends or in the evenings. (whichever time’s slotted to you)</p>
+              <p className='main-p'>If you’re earning a doctorate in your schedule while gaining expertise then a DBA program could be more efficient compared to PhD programs stretched for 6-7 years.</p>
+            </div>
+
+        </div>
+        {/* 2 */}
+        <div className="why-dba-inner-container">
+          <div className="why-dba-inner-flex">
+            <img className="why-dba-inner-icon" src={why2} alt="img" />
+            <h4 className="">
+            Enhanced Leadership
+              </h4>
+          </div>
+          <div className="why-dba-p">
+              
+              <p className='main-p'>Precise research methodology to critically think ahead of others and an unshakable authority & knowledge in your specific field; will imply that you’re an influential leader.</p>
+              <p className='main-p'>Our accredited research curriculum shows anyone lacking research skills or who has never tried studying a concept in-depth can effortlessly find bits & pieces of information needed for your paper.</p>
+              <p className='main-p'> <span className=' designed-p'>(💡Your industry experience will help solve 50% of your research proposal)</span></p>
+              <p className='main-p'>Whereas a PhD doesn’t account for reality and lives only in theory. Studying 100s of articles and lecturing them back, which’s a suited career path for most college business teachers.</p>
+            </div>
+
+        </div>
+        {/* 3 */}
+        <div className="why-dba-inner-container">
+          <div className="why-dba-inner-flex">
+            <img className="why-dba-inner-icon" src={why3} alt="img" />
+            <h4 className="">
+            Confirmed Salary Rise
+              </h4>
+          </div>
+          <div className="why-dba-p">
+              
+              <p className='main-p'>67 out of 71 DBA graduates scored high levels of job efficiency, a study conducted by Business Leadership Review.</p>
+              <p className='main-p'>Due to mastering statistical methods, case studies and applied research frameworks … </p>
+              <p className='main-p'>—solving complex business issues is almost second nature to the DBA graduates.</p>
+              <p className='main-p'>As a result DBA graduates' earnings drastically shot up.</p>
+              <p className='main-p'>In fact, management & consulting sectors - Boston, Delliote & McKinsey are sponsoring young executives & senior consultants to apply DBA leadership classes after work.</p>
+              <p className='main-p'>But in the case of PhD holders. Most colleges are self-funded or Non-profit. Only a few prestigious institutes give out 6 figure salaries for PhD scholars.</p>
+            </div>
+
+        </div>
+        {/* 4 */}
+        <div className="why-dba-inner-container">
+          <div className="why-dba-inner-flex">
+            <img className="why-dba-inner-icon" src={why4} alt="img" />
+            <h4 className="">
+            Less Thesis, More Network
+              </h4>
+          </div>
+          <div className="why-dba-p">
+              
+              <p className='main-p'>Unless you want to sacrifice social life in your PhD… </p>
+              <p className='main-p'> Here at SSM, you’ll not write all day. We believe any DBA leadership course focusing only on your thesis shouldn’t be accredited. Business leaders aren’t shut down to write +50,000 words, instead engages in:</p>
+              <ul className="bullet-list">
+  <li className='main-p'>International conferences</li>
+  <li className='main-p'>conferences Personal development</li>
+  <li className='main-p'>Leadership classes</li>
+</ul>
+
+            </div>
+
+        </div>
+        {/* 5 */}
+        {/* <div className="why-dba-inner-container">
+          <div className="why-dba-inner-flex">
+            <img className="why-dba-inner-icon" src={why5} alt="img" />
+            <h4 className="">
+              Less Commitment & Program Duration:
+              </h4>
+          </div>
+          <div className="why-dba-p">
+              
+              <p className='main-p'>DBA program lasts 24 months (2 years).</p>
+              <p className='main-p'>You can take classes on weekends or in the evenings. (whichever time’s slotted to you)</p>
+              <p className='main-p'>If you’re earning a doctorate in your schedule while gaining expertise then a DBA program could be more efficient compared to PhD programs stretched for 6-7 years.</p>
+            </div>
+        </div> */}
+
         </div>
     </div>
   )
