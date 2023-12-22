@@ -3,6 +3,7 @@
     background-color:#EDE6D8;
     padding: 65px 0px 57px 0px;
     border-radius: 64px;
+    position: relative;
 
 }
 .purpose-main h2 {
@@ -146,10 +147,15 @@ padding-top:39px ;
  .purpose-bottom {
     margin-top: 10px;
  }
+ .patterns {
+    position: absolute;
+    left: 20%;
+ }
 
 @media only screen and (max-width: 1180px) {
     .purpose-main {
         padding: 65px 0px 57px 0px;
+        margin-top: -25px;
     }
     .purpose-main h2 {
         width: 80%;
@@ -256,6 +262,11 @@ padding-top:39px ;
          top:50% ;
          left: 70%;
      }
+     .patterns {
+       width: 80px;
+       height: 80px;
+       bottom: -40px;
+     }
 }
 
 @media only screen and (max-width: 640px) {
@@ -358,5 +369,8 @@ padding-top:39px ;
      }
      .purpose-bottom {
         margin-top: 31px;
+     }
+     .patterns {
+        display: none;
      }
 }

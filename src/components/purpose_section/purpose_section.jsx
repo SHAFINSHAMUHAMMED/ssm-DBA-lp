@@ -6,6 +6,7 @@ import Claim_description from "../Description/claim_description";
 import user1 from '../../assets/user-img1.webp'
 import quoat1 from '../../assets/svg/quoat-transp.svg'
 import quoat2 from '../../assets/svg/quoat-color.svg'
+import pattern from '../../assets/svg/patter.svg'
 
 function purpose_section() {
   return (
@@ -70,6 +71,7 @@ your career, expand your network and your industry reputation i urgue you to enr
       />
       <Claim_description color="rgba(11, 67, 75, 0.79)" />
       </div>
+      <img className='patterns'  src={pattern} alt="" />
     </div>
   )
 }

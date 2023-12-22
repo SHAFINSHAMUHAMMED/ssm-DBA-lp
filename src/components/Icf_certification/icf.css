@@ -1,0 +1,471 @@
+/* ICF certification section */
+
+.icf-certification-main {
+  background-color: #EBFCFF;
+  position: relative;
+}
+
+.icf-certification-pattern-1 {
+  background-image: url('../../assets/svg/GraphicPattern.svg');
+  background-repeat: repeat-x;
+  height: 174px;
+}
+
+.icf-certification-pattern-2 {
+  display: none;
+}
+.icf-top-section {
+  width: 969px;
+  margin: auto;
+  margin-top: -50px;
+  padding: 50px 0px 40px 69px;
+  border-radius: 50px;
+background: #FFF;
+box-shadow: 0px 31px 51.8px 15px rgba(165, 191, 194, 0.30);
+display: flex;
+position: relative;
+}
+.icf-top-section img {
+  position: absolute;
+  width:433px ;
+  height: 467px;
+  top: -28%;
+  right: -13%;
+}
+.icf-top-content {
+
+}
+.icf-top-content h3 {
+  color: #0B434B;
+text-align: left;
+font-family: 'SK Modernist Bold';
+font-size: 37px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 19px;
+}
+.icf-top-points {
+  display: flex;
+  align-items: center;
+  gap:16px ;
+  margin-bottom: 17px;
+}
+.icf-top-points svg {
+
+}
+.icf-top-points p {
+  width: 513px;
+  color: #0B434B;
+text-align: left;
+font-family: 'SK Modernist Regular';
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 136%; /* 25.84px */
+}
+
+.icf-certification-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1025px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.icf-certification-sub h2 {
+  max-width: 426px;
+  text-align: center;
+  font-size: 28.321px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 107.5%;
+  margin-bottom: 15px;
+}
+
+.progress-container {
+  width: 50%;
+  background: rgba(158, 163, 159, 0.22);
+  height: 16px;
+  border-radius: 31px;
+}
+
+.progress-bar {
+  width: 0;
+  height: 100%;
+  background-color: #DD8534;
+  text-align: center;
+  border-radius: 31px;
+  position: relative;
+  overflow: hidden;
+  animation: fillProgress 1s forwards infinite;
+}
+
+.progress-bar::after {
+  position: absolute;
+  content: '';
+  width: 100px;
+  height: 100%;
+  background: linear-gradient(to right, transparent, rgba(240, 211, 211, 0.388), transparent);
+  position: absolute;
+  top: 0;
+  left: -100px;
+  animation: moveLight 2s infinite linear;
+}
+
+@keyframes moveLight {
+  0% {
+    left: -80px;
+  }
+
+  50% {
+    left: 100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes fillProgress {
+  0% {
+    width: 89%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+.icf-certification-sub h1 {
+  max-width: 831px;
+  font-size: 55.246px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  line-height: 114.5%;
+  padding: 20px 20px 20px 20px;
+}
+
+.icf-sub-p {
+  width: 548px ;
+}
+.icf-sub-points {
+  color: #0B434B;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 34px;
+}
+.icf-sub-points h5 {
+font-family: 'SK Modernist Bold';
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: 136%; /* 26.004px */
+}
+.icf-sub-points-card {
+  display: flex;
+  gap:14px ;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+.icf-sub-points-card div {
+  width: 495px;
+}
+.icf-sub-points-card h6 {
+  font-family: 'SK Modernist Bold';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 136%; /* 21.76px */
+}
+.icf-sub-points-card p {
+font-family: 'SK Modernist Regular';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 136%;
+}
+
+.bottom-man-image-div {
+  height: 820px;
+  position: relative;
+}
+
+.bottom-man-image-1 {
+  display: block;
+  width: 100%;
+  height: 972px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  object-position: top;
+}
+
+.bottom-man-image-2 {
+  display: none;
+}
+
+@media only screen and (max-width: 1180px) {
+  /* ICF certification section */
+
+  .icf-certification-pattern-1 {
+    height: 140px;
+  }
+
+  .icf-certification-pattern-2 {
+    display: none;
+  }
+
+  .icf-top-section {
+    width: 80%;
+    padding: 0px 0px 30px 0px;
+    border-radius: 40px;
+  flex-direction: column;
+  }
+  .icf-top-section img {
+    order: 1;
+    position: relative;
+    margin-top:-70px ;
+    width:400px ;
+    height: 420px;
+  }
+  .icf-top-content {
+  order: 2;
+  width: 80%;
+  /* padding: 0px 0px 0px 50px; */
+  margin: auto;
+  }
+  .icf-top-content h3 {
+  font-size: 30px;
+  margin-bottom: 19px;
+  }
+  .icf-top-points {
+    display: flex;
+    align-items: center;
+    gap:15px ;
+    margin-bottom: 15px;
+  }
+  .icf-top-points svg {
+    width: 38px;
+    height: 36px;
+  }
+  .icf-top-points p {
+    width: 85%;
+  font-size: 17px;
+  }
+
+  .icf-certification-sub {
+    padding-top: 40px;
+  }
+
+  .icf-certification-sub h2 {
+    max-width: 65%;
+    padding-left: 15px;
+    padding-right: 17px;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .progress-container {
+    width: 50%;
+    background: rgba(158, 163, 159, 0.22);
+    height: 16px;
+    border-radius: 31px;
+  }
+
+  .icf-certification-sub h1 {
+    max-width: 70%;
+    font-size: 37px;
+    line-height: 105%;
+    padding: 22px 0px 40px 0px;
+  }
+
+  .icf-sub-p {
+    width: 80% ;
+  }
+  .icf-sub-points {
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 34px;
+    width: 80%;
+  }
+  .icf-sub-points h5 {
+  font-size: 18.5px;
+  }
+  .icf-sub-points-card {
+    gap:12px ;
+    margin-top: 25px;
+    /* justify-content: center; */
+  }
+  .icf-sub-points-card div {
+    width: 80%;
+  }
+  .icf-sub-points-card h6 {
+    font-size: 16px;
+  }
+  .icf-sub-points-card p {
+  font-size: 16px;
+  }
+  .bottom-man-image-div {
+    height: 600px;
+    position: relative;
+  }
+
+  .bottom-man-image-1 {
+    display: block;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: cover;
+    object-position: bottom;
+  }
+
+  .bottom-man-image-2 {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+  /* ICF certification section */
+
+  .icf-certification-pattern-1 {
+    display: none;
+  }
+
+  .icf-certification-pattern-2 {
+    display: block;
+    background-image: url('../../assets/svg/GraphicPattern-mob.svg');
+    background-repeat: repeat-x;
+    height:98px ;
+  }
+
+  .icf-top-section {
+    width: 85%;
+    padding: 0px 0px 30px 0px;
+    border-radius: 34px;
+    margin-top: -35px;
+
+  }
+  .icf-top-section img {
+    order: 1;
+    position: relative;
+    margin-top:-60px ;
+    width:330px ;
+    height: 321px;
+    right: 0;
+    left: -40px;
+  }
+  .icf-top-content {
+  order: 2;
+  width: 80%;
+  /* padding: 0px 0px 0px 50px; */
+  margin: auto;
+  }
+  .icf-top-content h3 {
+  font-size: 23px;
+  margin-bottom: 15px;
+  text-align:center ;
+  }
+  .icf-top-points {
+    display: flex;
+    align-items: center;
+    gap:13px ;
+    margin-bottom: 20px;
+  }
+  .icf-top-points svg {
+    width: 34px;
+    height: 32px;
+  }
+  .icf-top-points p {
+    width: 85%;
+  font-size: 15px;
+  }
+
+  .icf-certification-sub {
+    padding-top: 20px;
+  }
+
+  .icf-certification-sub h2 {
+    max-width: 273px;
+    padding-left: 15px;
+    padding-right: 17px;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .progress-container {
+    width: 80%;
+    height: 11px;
+  }
+
+  .icf-progress-bar {
+    width: 316px;
+  }
+
+  .icf-certification-sub h1 {
+    max-width: 311px;
+    font-size: 37px;
+    line-height: 105%;
+    padding: 22px 0px 40px 0px;
+  }
+
+  .icf-sub-p {
+    width: 80% ;
+  }
+  .icf-sub-points {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    width: 85%;
+  }
+  .icf-sub-points h5 {
+  font-size: 16px;
+  }
+  .icf-sub-points-card {
+    gap:12px ;
+    margin-top: 20px;
+  }
+  .icf-sub-points-card div {
+    width: 90%;
+  }
+  .icf-sub-points-card svg {
+    width: 23px;
+    height: 22px;
+  }
+  .icf-sub-points-card h6 {
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+  .icf-sub-points-card p {
+  font-size: 15px;
+  }
+
+  .bottom-man-image-div {
+    height: 342px;
+    position: relative;
+  }
+
+  .bottom-man-image-2 {
+    display: block;
+    width: 100%;
+    height: 382px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .bottom-man-image-1 {
+    display: none;
+  }
+}

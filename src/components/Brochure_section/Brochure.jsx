@@ -1,10 +1,14 @@
 import React from 'react'
 import './brochure.css'
+import Popup from "../Popup_page/popup";
+import { usePopup } from "../Hoocks/PopupContext";
 
 import swisMba from "../../assets/swiss-mba.webp";
 import swisMbaTab from "../../assets/swiss-mba-tab.webp";
 
 function Brochure() {
+  const { isPopupOpen, togglePopup } = usePopup();
+
   return (
     <div className="world-of-possibilities-brochure ">
         <div className="world-of-possibilities-brochure-left">
@@ -12,15 +16,15 @@ function Brochure() {
             Get Instant Access To &nbsp;
             <span className="wavy-underline-green">The</span><span className="wavy-underline-green"> SSM DBA </span><span className="wavy-underline-green">Brochure</span>
           </h2>
-          <p className='main-p'>
+          <p className='main-p possibilities-p'>
             Get an inside look at our prestigious programs, faculty, and the
             unique benefits that set us apart in the business education
             landscape. Your first step toward a transformative MBA experience
             starts here.
           </p>
-          <div className="flex gap-3 sm:gap-6 items-center ">
+          <div className="flex gap-3 sm:gap-6 items-center brochure-dwnld ">
           <a 
-        //   onClick={togglePopup}
+          onClick={togglePopup}
           className="flex gap-3 sm:gap-6 items-center cursor-pointer">
             <h3 className="underline">Download Free Brochure Now</h3>
             
@@ -45,6 +49,7 @@ function Brochure() {
         </div>
         <img className='swiss-img-1' src={swisMba} alt="" />
         <img className='swiss-img-2' src={swisMbaTab} alt="" />
+      {isPopupOpen && <Popup closePopup={togglePopup} />}
       </div>
   )
 }

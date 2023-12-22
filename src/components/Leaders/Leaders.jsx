@@ -123,7 +123,7 @@ function Leaders() {
 
         </div>
         <img className="glob" src={glob_connections} alt="" />
-        <p className="main-p">Established in 1981 at St. Gallen, Switzerland. The institution is spread across UAE, Italy, Egypt, Malaysia, Vietnam & Barcelona -  helping students over 50+ countries showcase paramount professionalism & top-tier education.<br /><br />
+        <p className="main-p leader-p">Established in 1981 at St. Gallen, Switzerland. The institution is spread across UAE, Italy, Egypt, Malaysia, Vietnam & Barcelona -  helping students over 50+ countries showcase paramount professionalism & top-tier education.<br /><br />
 
 Our DBA graduates aren’t only theoretically adept but also take action on live projects using applied research to lead businesses worldwide.
 

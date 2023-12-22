@@ -47,24 +47,24 @@ function members_caarousel() {
     {
       id: 1,
       name: 'Name1',
-      designation: 'DESIGNATION1',
+      designation: 'Designation1',
       image: member
     },
     {
       id: 2,
       name: 'Name2',
-      designation: 'DESIGNATION2',
+      designation: 'Designation2',
       image: member
     },
     {
         id: 3,
         name: 'Name3',
-        designation: 'DESIGNATION3',
+        designation: 'Designation3',
         image: member
       },{
         id: 4,
         name: 'Name4',
-        designation: 'DESIGNATION4',
+        designation: 'Designation4',
         image: member
       },
   ];
@@ -75,8 +75,9 @@ function members_caarousel() {
         <h2 className="main-head-h2">Our Industry Veteran Faculty Members</h2>
       </div>
       <div className="members-carousel">
-        <button onClick={goToPrev} className="custom-prev-button">
+        <button onClick={goToPrev} className="member-prev-button">
         <svg
+        className=""
             xmlns="http://www.w3.org/2000/svg"
             width=""
             height=""
@@ -98,7 +99,6 @@ function members_caarousel() {
         </button>
         <Carousel
           responsive={responsive}
-        //   partialVisible={true}
           centerMode={true}
           ref={carouselRef}
           swipeable={true}
@@ -127,7 +127,7 @@ function members_caarousel() {
         </div>
       ))}
         </Carousel>
-        <button onClick={goToNext} className="custom-next-button">
+        <button onClick={goToNext} className="member-next-button">
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width=""
@@ -145,8 +145,11 @@ function members_caarousel() {
       </div>
      
     </div>
+    <div className="members-button">
     <ButtonDark duration={2500} containerStyle={{ justifyContent: "center" }} />
         <Claim_description color="rgba(11, 67, 75, 0.79)" />
+    </div>
+    
     </>
   );
 }

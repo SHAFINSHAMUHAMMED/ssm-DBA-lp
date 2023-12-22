@@ -1,8 +1,9 @@
 .members-main {
-    max-width: 1277px;
+    max-width: 1180px;
     margin: auto;
     position: relative;
     margin-bottom: 38px;
+    margin-top:100px ;
 
 }
 
@@ -26,6 +27,8 @@
     height: 431px;
     position: absolute;
     bottom: 0;
+    margin: auto;
+
 }
 
 .members-carousel .carousel-container {
@@ -37,6 +40,8 @@
 .members-carousel .carousel-img {
     width: 359px;
     height: 431px;
+  pointer-events: none;
+
     
 }
 
@@ -68,20 +73,22 @@
     line-height: 136%;
 }
 
-.members-carousel .custom-prev-button svg,
-.members-carousel .custom-next-button svg {
+.members-carousel .member-prev-button,
+.members-carousel .member-next-button {
+    box-shadow: 0px 18px 47.6px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 50%;
     width: 59px;
     height: 59px;
     position: absolute;
-    top: 0%;
+    top: 50%;
 }
 
-.members-carousel .custom-prev-button {
+.members-carousel .member-prev-button {
     left: -30px;
     z-index: 5;
 }
 
-.members-carousel .custom-next-button {
+.members-carousel .member-next-button {
     right: -30px;
     z-index: 5;
 }
@@ -89,10 +96,14 @@
     gap: 10px;
     margin-left: -50px;
 }
+.members-button {
+    margin-bottom: 50px;
+}
 
 @media only screen and (max-width: 1180px) {
     .members-main {
         max-width: 100%;
+        margin-top: 50px;
 
     }
 
@@ -142,23 +153,26 @@
         font-size: 20px;
     }
 
-    .members-carousel .custom-prev-button svg,
-    .members-carousel .custom-next-button svg {
+    .members-carousel .member-prev-button svg,
+    .members-carousel .member-next-button svg {
         width: 50px;
         height: 50px;
 
     }
 
-    .members-carousel .custom-prev-button {
+    .members-carousel .member-prev-button {
         left: -0px;
     }
 
-    .members-carousel .custom-next-button {
+    .members-carousel .member-next-button {
         right: 10px;
     }
     .members-carousel .react-multi-carousel-track {
         gap: 5px;
         margin-left: -40px;
+    }
+    .members-button {
+        margin-bottom: 30px;
     }
 }
 
@@ -166,17 +180,17 @@
     .members-main {
         max-width: 100%;
         margin-bottom: 24px;
-
-
+        margin-top: 0px;
     }
 
     .members-card {
         width: 90%;
-        height: 188px;
+        height: auto;
         border-radius: 0px;
         border-top-left-radius: 34px;
         border-top-right-radius: 34px;
         padding-top: 40px;
+        padding-bottom: 31px;
     }
 
     .members-card h2 {
@@ -187,6 +201,7 @@
         width: 100%;
         height: 257px;
         position: relative;
+        margin-top: -25px;
 
     }
 
@@ -198,6 +213,7 @@
 
     .members-carousel .carousel-img {
         height: 257px;
+
     }
 
     .carousel-caption {
@@ -218,13 +234,16 @@
         font-size: 14px;
     }
 
-    .members-carousel .custom-prev-button svg,
-    .members-carousel .custom-next-button svg {
+    .members-carousel .member-prev-button svg,
+    .members-carousel .member-next-button svg {
         display: none;
     }
     .members-carousel .react-multi-carousel-track {
         gap: 2px;
         margin-left: -10px;
     }
-
+    .members-button {
+        margin-bottom: 35px;
+        margin-top:50px ;
+    }
 }

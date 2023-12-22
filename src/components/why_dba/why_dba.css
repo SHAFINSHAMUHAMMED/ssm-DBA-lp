@@ -1,5 +1,5 @@
 .why-dba-main {
-    margin-top: 100px;
+    margin-top: 140px;
 }
 
 .why-dba-main h2 {
@@ -51,101 +51,109 @@
     font-weight: 700;
     line-height: 136%;
 }
- .why-arrow-main {
+
+.why-arrow-main {
     transform: translateY(-10px);
 
- }
-  .why-arrow-svg {
+}
+
+.why-arrow-svg {
     width: 75px;
     height: 155px;
     margin: auto;
     animation: moveDown .7s ease-in-out infinite;
-  }
-  
-  @keyframes moveDown {
-    0% {
-      transform: translateY(0);
-    }
-  
-    50% {
-      transform: translateY(20px);
-    }
-  
-    100% {
-      transform: translateY(0);
-    }
-  }
+}
 
-  .why-dba-inner-container {
+@keyframes moveDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.why-dba-inner-container {
     width: 905px;
     margin: auto;
     padding: 10px 0px 0px 40px;
     border-radius: 68px;
     margin-bottom: 50px;
 
-  }
-  .why-dba-inner-container:hover {
+}
+
+.why-dba-inner-container:hover {
     background: #FFF;
-box-shadow: 0px 31px 51.8px 15px rgba(85, 139, 147, 0.17);
-  }
-  
-  .why-dba-inner-flex {
+    box-shadow: 0px 31px 51.8px 15px rgba(85, 139, 147, 0.17);
+}
+
+.why-dba-inner-flex {
     display: flex;
     align-items: center;
     gap: 23px;
     /* padding: 40px 480px 50px 40px; */
-  }
-  
-  .why-dba-p {
+}
+
+.why-dba-p {
     padding-left: 100px;
     padding-top: 10px;
     margin-top: -35px;
-  }
-  .designed-p {
-    border-radius: 29px;
-border: 0.5px solid rgba(11, 67, 75, 0.27);
-background: rgba(37, 157, 74, 0.06);
-display: flex;
-align-items: center;
-padding: 0px!important;
-padding-left: 15px!important;
-height: 45px;
+}
 
-  }
-  /* Add this CSS to style the bullet list */
+.designed-p {
+    border-radius: 29px;
+    border: 0.5px solid rgba(11, 67, 75, 0.27);
+    background: rgba(37, 157, 74, 0.06);
+    display: flex;
+    align-items: center;
+    padding: 0px !important;
+    padding-left: 15px !important;
+    height: 45px;
+
+}
+
+/* Add this CSS to style the bullet list */
 .bullet-list {
-    list-style-type: disc; 
-    margin-left: 20px; 
+    list-style-type: disc;
+    margin-left: 20px;
     padding-left: 0;
-  }
-  
-  .bullet-list li {
+    color: #0B434B;
+    padding-bottom: 20px;
+}
+
+.bullet-list li {
     margin-bottom: 10px;
-  }
-  
-  .why-dba-inner-flex h4 {
+}
+
+.why-dba-inner-flex h4 {
     font-family: 'SK Modernist Bold';
     color: #0B434B;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 136%; /* 33.354px */
-margin-bottom: 26px;
-  }
-  
-  .why-dba-p p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 136%;
+    /* 33.354px */
+    margin-bottom: 26px;
+}
+
+.why-dba-p p {
     padding: 10px 50px 30px 0px;
-  }
+}
 
 @media only screen and (max-width: 1180px) {
     .why-dba-main {
         margin-top: 80px;
     }
-    
+
     .why-dba-main h2 {
         width: 80%;
     }
-    
+
     .why-dba-top-section {
         margin: auto;
         flex-direction: column;
@@ -153,18 +161,19 @@ margin-bottom: 26px;
         max-width: 90%;
         margin-top: 36px;
     }
-    
+
     .why-dba-top-section p {
         width: 80%;
         margin: auto;
         margin-left: 50px;
     }
+
     .why-dba-top-section img {
         width: 60%;
         margin: auto;
         margin-top: 30px;
     }
-    
+
     .why-dba-mid {
         max-width: 90%;
         height: 200px;
@@ -173,85 +182,90 @@ margin-bottom: 26px;
         margin: auto;
         margin-top: -70px;
     }
-    
+
     .why-dba-mid h5 {
         width: 80%;
         font-size: 25px;
-       margin: auto;
+        margin: auto;
     }
-    
+
     .h5Span {
         font-size: 28px;
 
     }
-     .why-arrow-main {
+
+    .why-arrow-main {
         transform: translateY(-10px);
-    
-     }
-    
-    
-      .why-dba-inner-container {
+
+    }
+
+
+    .why-dba-inner-container {
         width: 90%;
         padding: 0px 0px 0px 40px;
         border-radius: 50px;
-    margin-bottom: 40px;
+        margin-bottom: 40px;
 
-    
-      }
-      .why-dba-p {
+
+    }
+
+    .why-dba-p {
         padding-left: 0px;
         padding-top: 10px;
         margin-top: 0px;
-      }
-      .designed-p {
-        border-radius:0;
-border: none;
-background: none;
-display: block;
-padding-left: 0px!important;
-padding-bottom: 20px!important;
-height: 0;
     }
-      
-      .why-dba-inner-flex h4 {
-    margin-bottom: 20px;
-      }
-      
-      .why-dba-p p {
+
+    .designed-p {
+        border-radius: 0;
+        border: none;
+        background: none;
+        display: block;
+        padding-left: 0px !important;
+        padding-bottom: 20px !important;
+        height: 0;
+    }
+
+    .why-dba-inner-flex h4 {
+        margin-bottom: 20px;
+    }
+
+    .why-dba-p p {
         padding: 10px 0px 30px 0px;
-      }
+    }
 }
 
 @media only screen and (max-width: 640px) {
     .why-dba-main {
         margin-top: 50px;
     }
-    
+
     .why-dba-main h2 {
         width: 90%;
     }
-    
+
     .why-dba-top-section {
         max-width: 90%;
         margin-top: 33px;
     }
-    
+
     .why-dba-top-section p {
         width: 95%;
         margin: 0px;
         margin-left: 0px;
         padding: 0px 0px 0px 10px;
         font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 136%; /* 21.76px */
+        font-style: normal;
+        font-weight: 400;
+        line-height: 136%;
+        /* 21.76px */
     }
+
     .why-dba-top-section img {
         width: 100%;
         margin: auto;
         margin-top: 50px;
     }
-    
+
     .why-dba-mid {
         max-width: 90%;
         height: 257px;
@@ -260,44 +274,50 @@ line-height: 136%; /* 21.76px */
         margin: auto;
         margin-top: -110px;
     }
-    
+
     .why-dba-mid h5 {
         width: 95%;
         font-size: 18px;
         margin: 0px;
-        padding:0px 26px 0px 40px ;
+        padding: 0px 26px 0px 40px;
     }
-    
+
     .h5Span {
         font-size: 23px;
 
     }
-     .why-arrow-main {
+
+    .why-arrow-main {
         transform: translateY(-40px);
-    
-     }
-    
-      .why-dba-inner-container {
+
+    }
+
+    .why-dba-inner-container {
         width: 90%;
         padding: 0px 0px 0px 24px;
         border-radius: 34px;
-      }
-      .why-dba-inner-flex {
+    }
+
+    .why-dba-inner-flex {
         gap: 15px;
         /* padding: 40px 480px 50px 40px; */
-      }
-      
-      .why-dba-p {
+    }
+
+    .why-dba-p {
         padding-left: 0px;
-    
-      }
-      
-      .why-dba-inner-flex h4 {
-    margin-bottom: 20px;
-      }
-      
-      .why-dba-p p {
+
+    }
+
+    .why-dba-inner-flex h4 {
+        margin-bottom: 20px;
+    }
+
+    .why-dba-p p {
         padding: 10px 0px 25px 5px;
         width: 90%;
-      }
+    }
+
+    .designed-p {
+        padding-bottom: 40px !important;
+    }
 }

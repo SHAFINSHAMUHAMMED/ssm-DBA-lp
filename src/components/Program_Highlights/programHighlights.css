@@ -8,7 +8,6 @@
   margin: 0px 10px 0px 10px;
   position: relative;
   padding-top: 80px;
-  margin-top: 80px;
   border-radius: 64px;
   display: flex;
   flex-direction: column;
@@ -55,6 +54,9 @@
   padding: 25px;
   padding-left: 40px;
   position: relative;
+}
+.highlight-colums-last {
+  padding-bottom: 94px;
 }
 
 .Highlight-columns h4 {
@@ -105,7 +107,6 @@
 
   .highlight-main {
     padding-top: 33px;
-    margin-top: 43px;
     border-radius: 38px;
   }
 

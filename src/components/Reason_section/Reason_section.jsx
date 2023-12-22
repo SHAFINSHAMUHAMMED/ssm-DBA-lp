@@ -129,6 +129,7 @@ function Reason_section() {
           who can “show & teach” discipline in their company … And teaching
           leadership authority has been Swiss School’s speciality for decades.
         </p>
+        <img className="pattern2" src={pattern} alt="" />
       </div>
 
       <div className="reason-bottom-section">
@@ -160,12 +161,13 @@ function Reason_section() {
                 </div>
             </div>
             </div>
-      </div>
-      <Button
+            <Button
         duration={2500}
         containerStyle={{ justifyContent: "center" }}
       />
       <Claim_description color="rgba(11, 67, 75, 0.79)" />
+      </div>
+      
     </div>
   );
 }

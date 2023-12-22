@@ -291,7 +291,7 @@ function program_Highlights() {
             Exclusive Networking Opportunities
           </h4>
         </div>
-        <div className="columns Highlight-columns">
+        <div className="columns Highlight-columns highlight-colums-last">
           <svg
             className="highlight-svg"
             xmlns="http://www.w3.org/2000/svg"
@@ -320,7 +320,7 @@ function program_Highlights() {
           </svg>
           <h4 className="text-body-light ps-5">Student Support</h4>
         </div>
-        <div className="Highlight-columns2 ">
+        <div className="Highlight-columns2 highlight-colums-last">
         </div>
       </div>
       {/* <ButtonOrange />

@@ -22,7 +22,7 @@
     color: white;
   }
   
-  .world-of-possibilities-brochure p {
+  .possibilities-p {
     width: 506px;
     color: rgba(255, 255, 255, 0.76);
     margin-bottom: 20px;
@@ -56,7 +56,7 @@
         width: 90%;
       }
     
-      .world-of-possibilities-brochure p {
+      .possibilities-p {
         width: 90%;
         margin-bottom: 20px;
     
@@ -98,19 +98,25 @@
       }
     
       .world-of-possibilities-brochure h2 {
+        margin: auto;
         margin-bottom: 30px;
         margin-top: 50px;
         text-align: center;
         width: 90%;
       }
     
-      .world-of-possibilities-brochure p {
+      .possibilities-p {
+        margin: auto;
         margin-bottom: 20px;
         padding-right: 30px;
         padding-left: 20px;
       }
-    
+      .brochure-dwnld {
+        width: 90%;
+        margin: auto;
+      }
       .world-of-possibilities-brochure h3 {
+        margin: auto;
         font-size: 16px;
         padding-left: 20px;
       }

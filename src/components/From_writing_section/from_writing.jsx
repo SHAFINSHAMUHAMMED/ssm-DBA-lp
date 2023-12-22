@@ -4,6 +4,7 @@ import { Link, Element } from "react-scroll";
 
 import arrow from '../../assets/svg/arrow-icon.svg'
 import img1 from '../../assets/from-section-1.webp'
+import img2 from '../../assets/from-section-2.webp'
 import svgIcon from '../../assets/svg/from_writing_svg.svg'
 function from_writing() {
   return (
@@ -17,12 +18,12 @@ function from_writing() {
           <img className='arrow-icon' src={arrow} alt="" />
             </div>
          <div className='from-writing-img-main2'>
-         <img className='from-writing-svg' src={svgIcon} alt="" />
          <img
             className="from-writing-img-1"
-            src={img1}
+            src={img2}
             alt=""
           />
+         {/* <img className='from-writing-svg' src={svgIcon} alt="" /> */}
          </div>
           
           <p className="main-p from-writing-p">

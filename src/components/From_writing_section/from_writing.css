@@ -148,7 +148,7 @@
       } */
     
       .from-writing-img-1 {
-        width: 80%;
+        width: 100%;
       }
     
       .from-writing-img-2 {
@@ -178,17 +178,10 @@
        }
        .from-writing-img-main2 {
          display: flex;
-         justify-content: flex-end;
+         justify-content: center;
          position: relative;
-         margin-bottom:66px ;
+         margin-bottom:42px ;
          width: 90%;
-       }
-       .from-writing-svg {
-         position: absolute;
-         width:181px ;
-         height:107px ;
-         left: -10%;
-         bottom: -6%;
        }
        .from-writing-button {
          margin-top: 10px;
