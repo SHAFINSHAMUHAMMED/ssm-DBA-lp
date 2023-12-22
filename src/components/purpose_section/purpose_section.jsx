@@ -35,7 +35,7 @@ function purpose_section() {
            </div>
            <div className='purpose-text-2'>
             <h4>“I would love to say that it was a beautiful journey... “</h4>
-                <h5>-  Laynas,(MBA Operations )</h5>
+                <h5>-  Laynas,(DBA Operations )</h5>
            </div>
         </div>
         {/* 3 */}
@@ -43,7 +43,7 @@ function purpose_section() {
            <div className='purpose-text'>
             <h4>“Its’s never too late if you are looking to  elevate
 your career, expand your network and your industry reputation i urgue you to enroll at learners university “</h4>
-                <h5>-  Wynona, (MBA Finance )</h5>
+                <h5>-  Wynona, (DBA Finance )</h5>
            </div>
            <div className='user-img-main'>
             <img className='quote1' src={quoat1} alt="" />
@@ -61,7 +61,7 @@ your career, expand your network and your industry reputation i urgue you to enr
            </div>
            <div className='purpose-text-2'>
             <h4>“.....anytime i needed help. I’d easily call them adn they will support me or email me at the soonest. So thank you very much Learner’s university college! “</h4>
-                <h5>-  Omatayo , (MBA Finance )</h5>
+                <h5>-  Omatayo , (DBA Finance )</h5>
            </div>
         </div>
         <div className='purpose-bottom text-center'>

@@ -403,10 +403,10 @@ function ReviewSection() {
                 <img className="review-star" src={stars_review} alt="" />
               </div>
               <p className="">
-                I always wanted to do an MBA from the Institute which offers
-                online education but with good quality. I done my MBA in Supply
+                I always wanted to do an DBA from the Institute which offers
+                online education but with good quality. I done my DBA in Supply
                 chain management from SSM with the help of Learner University
-                College Dubai.The MBA in Supply chain management from Swiss
+                College Dubai.The DBA in Supply chain management from Swiss
                 School of Management and the services provided by Learners were
                 well suited according to my need. The Fees is also good and the
                 staff is very helpful
@@ -559,7 +559,7 @@ function ReviewSection() {
               </div>
               <p className="">
                 The perfect institute which believes and strives for quality.
-                You couldn't find a better place to get your bba and MBA done.
+                You couldn't find a better place to get your bba and DBA done.
                 Once your at learners you dont have to search any further. When
                 you meet the incredible staff and faculty you know you've found
                 the right place to achieve your goal with the help of learners
@@ -601,7 +601,7 @@ function ReviewSection() {
                 Learners.. While I visited, one Mr.Tony executive of learners
                 had cleared all my queries and made me confident enough to do my
                 PG with my job. They provided all the study materials and
-                guidelines for my Executive MBA. They have very attractive
+                guidelines for my Executive DBA. They have very attractive
                 payment plans as well, which was surely a big concern.
               </p>
               <div className="flex justify-between items-center">
@@ -635,7 +635,7 @@ function ReviewSection() {
               </div>
               <p className="">
                 Learners Education is a fantastic learning platform for students
-                looking to pursue BBA or MBA. They have been very helpful and
+                looking to pursue BBA or DBA. They have been very helpful and
                 have guided me in my educational process. I thoroughly enjoyed
                 my time studying here. I congratulate the institute on having
                 such diverse, knowledgeable and experienced professors, not only

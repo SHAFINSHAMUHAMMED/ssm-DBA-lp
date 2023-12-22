@@ -9,6 +9,7 @@ import prof3 from "../../assets/prof3.webp";
 import prof4 from "../../assets/prof4.webp";
 import prof5 from "../../assets/prof5.webp";
 import prof6 from "../../assets/prof6.webp";
+import star_lg from '../../assets/svg/star-large-icon.svg'
 
 function power_skills() {
   return (
@@ -188,7 +189,7 @@ function power_skills() {
         </div>
         <img
           className="power-skill-star"
-          src="images/svg/star-large-icon.svg"
+          src={star_lg}
           alt=""
         />
       </div>

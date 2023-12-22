@@ -19,7 +19,7 @@ function Brochure() {
           <p className='main-p possibilities-p'>
             Get an inside look at our prestigious programs, faculty, and the
             unique benefits that set us apart in the business education
-            landscape. Your first step toward a transformative MBA experience
+            landscape. Your first step toward a transformative DBA experience
             starts here.
           </p>
           <div className="flex gap-3 sm:gap-6 items-center brochure-dwnld ">

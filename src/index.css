@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'SK Modernist Bold';
-  src: url('fonts/Sk-Modernist-Bold.otf') format('opentype');
+  src: url('./assets/fonts/Sk-Modernist-Bold.otf') format('opentype');
   /* OTF format */
   font-weight: bold;
   font-style: normal;
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: 'SK Modernist Mono';
-  src: url('fonts/Sk-Modernist-Mono.otf') format('opentype');
+  src: url('./assets/fonts/Sk-Modernist-Mono.otf') format('opentype');
   /* OTF format */
   font-weight: normal;
   font-style: normal;
@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: 'SK Modernist Regular';
-  src: url('fonts/Sk-Modernist-Regular.otf') format('opentype');
+  src: url('./assets/fonts/Sk-Modernist-Regular.otf') format('opentype');
   /* OTF format */
   font-weight: normal;
   font-style: normal;

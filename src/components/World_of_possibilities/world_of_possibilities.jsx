@@ -434,7 +434,7 @@ function world_of_possibilities() {
                 <h3>Fast-Track Your Degree</h3>
               </div>
               <p>
-                Choose accelerated options to complete your MBA or other degrees
+                Choose accelerated options to complete your DBA or other degrees
                 at your own pace.
               </p>
             </div>

@@ -104,14 +104,14 @@ const MultiStepForm = () => {
     }
   };
   const specializationOptions = [
-    "MBA in General",
-    "MBA in Finance",
-    "MBA in Global Management & Leadership",
-    "MBA in Health Safety & Environment ",
-    "MBA in Healthcare Management ",
-    "MBA in Human Resources ",
-    "MBA in Marketing ",
-    "MBA in Supply Chain Management"
+    "DBA in General",
+    "DBA in Finance",
+    "DBA in Global Management & Leadership",
+    "DBA in Health Safety & Environment ",
+    "DBA in Healthcare Management ",
+    "DBA in Human Resources ",
+    "DBA in Marketing ",
+    "DBA in Supply Chain Management"
 
     // Add optins
   ];
