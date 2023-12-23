@@ -392,7 +392,9 @@ line-height: 136%;
   .icf-certification-sub {
     padding-top: 20px;
   }
+.icf-certification-sub img {
 
+}
   .icf-certification-sub h2 {
     max-width: 273px;
     padding-left: 15px;
@@ -418,7 +420,7 @@ line-height: 136%;
   }
 
   .icf-sub-p {
-    width: 80% ;
+    width: 85% ;
   }
   .icf-sub-points {
     margin: auto;

@@ -299,7 +299,7 @@ line-height: 136%; /* 30.065px */
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        margin: auto;
+        /* margin: auto; */
         gap: 14px;
         width: 90%;
         height: 87px;
@@ -307,15 +307,15 @@ line-height: 136%; /* 30.065px */
         border: 0.36px solid #C6C6C6; 
         margin-bottom:20px ;
         padding-left: 13px;
+        margin-left: 10px;
     }
     .reason-card img {
         width:63px ;
         height:63px ;
     }
     .reason-h5 {
-        width: 50%;
         font-size: 13px;
-        padding-left:34px ;
+        padding-left: 25p;
     }
     .pattern {
        display: none;
@@ -329,7 +329,7 @@ line-height: 136%; /* 30.065px */
         justify-content: flex-start;
         gap:10px ;
         margin-top:19px ;
-        padding-left: 34px;
+        margin-left: 20px;
     }
     .not-because div {
         display: flex;
@@ -350,7 +350,9 @@ line-height: 136%; /* 30.065px */
         margin-top: 30px;
 
     }
-
+    .pattern2 {
+        display: none;
+    }
 
     .reason-bottom-section {
         width: 95%;

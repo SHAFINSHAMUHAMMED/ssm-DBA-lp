@@ -28,6 +28,8 @@ import cap from '../../assets/cap.webp'
 function world_of_possibilities() {
 
   const carouselReff = useRef(null);
+  const carouselReff2 = useRef(null);
+
 
   const goToNext = () => {
     if (carouselReff.current) {
@@ -39,6 +41,18 @@ function world_of_possibilities() {
   const goToPrev = () => {
     if (carouselReff.current) {
       carouselReff.current.previous();
+    }
+  };
+  const goToNext2 = () => {
+    if (carouselReff2.current) {
+      carouselReff2.current.next();
+
+    }
+  };
+
+  const goToPrev2 = () => {
+    if (carouselReff2.current) {
+      carouselReff2.current.previous();
     }
   };
   const responsive = {
@@ -76,7 +90,7 @@ function world_of_possibilities() {
           </h2>
           
         <div className="desktop-carousel">
-        <button onClick={goToPrev} className="custom-prev-button">
+        <button onClick={goToPrev} className="custom-prev-button2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width=""
@@ -126,7 +140,7 @@ function world_of_possibilities() {
       <div className="carousel-img"><img src={unilever} alt="Company Logo" /></div>
       <div className="carousel-img"><img src={nestle} alt="Company Logo" /></div>
     </Carousel>
-    <button onClick={goToNext} className=" custom-next-button">
+    <button onClick={goToNext} className=" custom-next-button2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width=""
@@ -142,8 +156,9 @@ function world_of_possibilities() {
           </svg>
         </button>
     </div>
+
     <div className="mobile-carousel">
-    <button onClick={goToPrev} className="custom-prev-button2">
+    <button onClick={goToPrev2} className="custom-prev-buttonMob">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width=""
@@ -166,6 +181,7 @@ function world_of_possibilities() {
         </button>
     <Carousel 
        responsive={responsive} 
+       ref={carouselReff2}
        swipeable={true}
        draggable={true}
        showDots={true}
@@ -204,7 +220,7 @@ function world_of_possibilities() {
         <img src={rakbank} alt="Company Logo" />
         </div>
     </Carousel>
-    <button onClick={goToNext} className=" custom-next-button2">
+    <button onClick={goToNext2} className=" custom-next-buttonMob">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width=""

@@ -37,7 +37,7 @@ function Reason_section() {
           </h5>
         </div>
         <img className="pattern" src={pattern} alt="pattern" />
-        <h5 className="reason-h5">Not because of:</h5>
+        <h5 className="reason-h5 not-because ">Not because of:</h5>
         <div className="not-because">
           <div className="">
             <svg

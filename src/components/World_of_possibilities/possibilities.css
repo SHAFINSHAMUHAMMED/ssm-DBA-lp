@@ -31,33 +31,33 @@ margin-bottom:88px ;
   width: 295px;
   height: 233px;
   position: absolute;
-  top: -20%;
+  top: -30%;
   right: -10.9%;
   
 }
 .mobile-carousel {
   display: none;
 }
-.wp-carousel-section .custom-prev-button,
-.wp-carousel-section .custom-next-button {
+.wp-carousel-section .custom-prev-button2,
+.wp-carousel-section .custom-next-button2 {
   position: absolute;
   top: 56%;
   width: 59px;
   height: 59px;
 }
 
-.wp-carousel-section .custom-prev-button {
+.wp-carousel-section .custom-prev-button2 {
   left: -30px;
   z-index: 5;
 }
 
-.wp-carousel-section .custom-next-button {
+.wp-carousel-section .custom-next-button2 {
   right: -30px;
   z-index: 5;
 }
 
-.wp-carousel-section .custom-prev-button2,
-  .wp-carousel-section .custom-next-button2 {
+.wp-carousel-section .custom-prev-buttonMob,
+  .wp-carousel-section .custom-next-buttonMob {
     display: none;
    }
 
@@ -319,20 +319,20 @@ margin-bottom:88px ;
     top: -10%;
     right: -6%;
   }
-   .wp-carousel-section .custom-prev-button,
-   .wp-carousel-section .custom-next-button {
+   .wp-carousel-section .custom-prev-button2,
+   .wp-carousel-section .custom-next-button2 {
      position: absolute;
      top: 55%;
      width: 40px;
      height: 40px;
    }
    
-   .wp-carousel-section .custom-prev-button {
+   .wp-carousel-section .custom-prev-button2 {
      left: -20px;
      z-index: 5;
    }
    
-   .wp-carousel-section .custom-next-button {
+   .wp-carousel-section .custom-next-button2 {
      right: -20px;
      z-index: 5;
    }
@@ -551,21 +551,30 @@ margin-bottom:88px ;
    .carousel-cap {
    display: none;
   }
+
+  /* desktop button */
+ 
   .wp-carousel-section .custom-prev-button2,
   .wp-carousel-section .custom-next-button2 {
+    display: none;
+   }
+  
+   /* mobile button */
+   .wp-carousel-section .custom-prev-buttonMob,
+  .wp-carousel-section .custom-next-buttonMob {
     display: block;
      position: absolute;
-     top: 68%;
+     top: 65%;
      width: 38px;
      height: 38px;
    }
    
-   .wp-carousel-section .custom-prev-button2 {
+   .wp-carousel-section .custom-prev-buttonMob {
      left: -10px;
      z-index: 5;
    }
    
-   .wp-carousel-section .custom-next-button2 {
+   .wp-carousel-section .custom-next-buttonMob {
      right: -10px;
      z-index: 5;
    }
@@ -581,12 +590,18 @@ margin-bottom:88px ;
    .wp-carousel-section .react-multi-carousel-dot-list {
     gap: 4px;
    }
+   .wp-carousel-section .react-multi-carousel-track {
+    justify-content: center!important;
+    margin-left: 5%;
+
+   }
    .wp-carousel-section .react-multi-carousel-dot {
     transform: scale(1);
    }
    .carousel-img {
-     width:107px ;
-     height: 60px;
+    max-width: 140px;
+     width:auto ;
+     height: auto;
    }
    
    

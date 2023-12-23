@@ -37,7 +37,7 @@ function why_dba() {
           <br />
           But the same title can be earned via PhD…
         </p>
-        <img src={key} alt="" />
+        <img className="br-animated-icon" src={key} alt="key-icon" />
       </div>
       <div className="why-dba-mid">
         <h5>

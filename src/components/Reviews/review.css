@@ -346,7 +346,7 @@
   .player-container {
     border-radius: 18px;
     height: 100%;
-    padding-top: 56.25%;
+    padding-top: 40.25%;
   }
  
   .player-container svg {
@@ -363,18 +363,20 @@
     height: 126px;
     background-image: url('../../assets/GraphicPatter3-mob.webp');
     background-size: 100%;
-    margin: 30px 0px 24px 0px;
+    margin: 20px 0px 24px 0px;
 
   }
 
   .review-video-sub .react-multi-carousel-list {
     overflow: hidden;
-    height: 126px;
+    height: auto;
   }
-
+.review-video-sub .react-multi-carousel-item {
+  width: 135px!important;
+}
   .review-video-sub-cards {
     gap: 0px;
-    transform: translateY(-20px);
+    transform: translateY(0px);
 
   }
 
