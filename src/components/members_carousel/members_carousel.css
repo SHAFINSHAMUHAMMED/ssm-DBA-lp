@@ -4,6 +4,8 @@
     position: relative;
     margin-bottom: 38px;
     margin-top:100px ;
+    /* overflow: hidden; */
+
 
 }
 
@@ -85,12 +87,12 @@
 }
 
 .members-carousel .member-prev-button {
-    left: -30px;
+    left: -12px;
     z-index: 5;
 }
 
 .members-carousel .member-next-button {
-    right: -30px;
+    right: -12px;
     z-index: 5;
 }
 .members-carousel .react-multi-carousel-track {
@@ -162,7 +164,7 @@
     }
 
     .members-carousel .member-prev-button {
-        left: -0px;
+        left: 15px;
     }
 
     .members-carousel .member-next-button {

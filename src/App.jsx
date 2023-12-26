@@ -27,6 +27,7 @@ const StudentSupport = React.lazy(() => import('./components/Student_support_gua
 const IcfCertification = React.lazy(() => import('./components/Icf_certification/icf_certification'));
 const Footer = React.lazy(() => import('./components/Footer/footer'));
 const Popup = React.lazy(() => import('./components/Popup_page/popup'));
+const WhatsappStickyLogo = React.lazy(() => import('./components/WhatsappStickyLogo/StickyWhatsAppButton'))
 
 
 function App() {
@@ -73,6 +74,7 @@ function App() {
     <div className="body">
     <Header/>
     <Hero/>
+    <WhatsappStickyLogo/>
     <Carousel/>
     <Leaders/>
     <Highlight/>
