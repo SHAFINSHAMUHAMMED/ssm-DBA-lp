@@ -152,7 +152,7 @@
   position: absolute!important;
   background-color: transparent!important;
   border-radius: 5px!important;
-  top: 18%!important;
+  top: 25%!important;
   transform: translate(50%, 50%)!important;
   height: 30px!important;
 }
@@ -268,7 +268,7 @@
 
   .react-tel-input .flag-dropdown {
     border-radius: 5px!important;
-    top: 0%!important;
+    top: 18%!important;
     transform: translate(50%, 50%)!important;
     height: 30px!important;
     margin-right: 50px!important;
@@ -389,7 +389,7 @@
 
   .react-tel-input .flag-dropdown {
     border-radius: 5px!important;
-    top: 0%!important;
+    top: 15%!important;
     transform: translate(50%, 50%)!important;
     height: 30px!important;
     margin-right: 50px!important;

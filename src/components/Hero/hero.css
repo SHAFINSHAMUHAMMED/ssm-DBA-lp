@@ -11,7 +11,7 @@
 }
 .hero-section::after {
   content: '';
-  width:33% ;
+  width: 33%; 
   height: 100%;
   background-color:#E2F3F5;
   position: absolute;
@@ -51,10 +51,14 @@
 
 .hero-left {
 width: 550px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+margin-bottom: 70px;
 }
 
 .sub-heading {
-  margin-top: 90px;
+  /* margin-top: 80px; */
   margin-bottom: 16px;
   gap: 28px;
   align-items: center;
@@ -129,7 +133,7 @@ width: 550px;
   font-family: 'SK Modernist Bold';
   font-size: 58px;
   font-weight: 700;
-  line-height: 65px;
+  line-height: 60px;
   /* padding-right: 60px; */
 }
 
@@ -151,7 +155,7 @@ justify-content: flex-end;
 }
 .hero-right img {
   width: 763px;;
-  height: 863px;
+  height: 737px;
   object-fit: contain;
   object-position: bottom;
 }
@@ -326,7 +330,7 @@ width: 100%;
   margin-top: 50px;
   margin-bottom: 11px;
   gap: 25px;
-  width: 90%;
+  width: 80%;
 }
 
 .subheding-icon img {

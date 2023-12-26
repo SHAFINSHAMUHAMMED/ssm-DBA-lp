@@ -23,10 +23,10 @@
 .steps-to-unlock-cards-main::after {
   position: absolute;
   content: '';
-  bottom: 150px;
+  bottom: 130px;
   left: 50px;
   width: 10%;
-  height: 700px;
+  height: 750px;
   background-image: url('../../assets/svg/connecting-dot.svg');
   background-repeat: no-repeat;
   background-size: contain;
@@ -35,7 +35,7 @@
 
 .steps-to-unlock-cards {
   margin-top: 60px;
-  padding: 0px 0px 40px 0px;
+  padding: 0px 0px 0px 0px;
   position: relative;
 }
 
@@ -206,9 +206,9 @@
   /* Steps to unlock career section */
 
   .steps-to-unlock-career-main {
-    margin-top: 30px;
+    margin-top: 40px;
     border-radius: 38px;
-    padding: 47px 0px 33px 0px;
+    padding: 47px 0px 37px 0px;
   }
 
   .steps-to-unlock-career-main .svg-icon2 {
@@ -229,11 +229,11 @@
   .steps-to-unlock-cards-main::after {
     position: absolute;
     content: '';
-    left: 6%;
+    left: 22px;
     top: 40px;
     width: 10%;
-    height: 75%;
-    background-image: url('../../assets/svg/connecting-dot-mob.svg');
+    height: 77%;
+    background-image: url('../../assets/svg/connecting-dot.svg');
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 1;
@@ -253,7 +253,7 @@
   }
 
   .steps-to-unlock-card {
-    width: 100%;
+    width: 90%;
     border: none;
     background-color: #fff;
     padding: 24px 20px 30px 20px;

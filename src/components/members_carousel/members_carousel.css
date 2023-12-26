@@ -41,6 +41,7 @@
     width: 359px;
     height: 431px;
   pointer-events: none;
+  object-fit: cover;
 
     
 }

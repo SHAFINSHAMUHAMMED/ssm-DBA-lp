@@ -5,16 +5,24 @@
   margin: 0px 10px 0px 10px;
   position: relative;
   padding-top: 80px;
-  margin-top: 390px;
+  margin-top: 429px;
   border-radius: 64px;
-  
-  /* max-width: 1180px; */
 }
 
+.wp-carousel-main {
+  height:660px ;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+ /* transform: translateY(80px); */
+  z-index: 10;
+margin-top: -480px;
 
+}
 .wp-carousel-section {
  max-width: 1121px;
- height: 411px;
+ /* height: 411px; */
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -23,16 +31,17 @@
 background: #FFF;
 box-shadow: 0px 31px 51.8px 15px rgba(165, 191, 194, 0.30);
 position: relative;
-margin-top: -340px;
 margin-bottom:88px ;
+padding: 60px 0px 60px 0px;
 
 }
 .carousel-cap {
   width: 295px;
   height: 233px;
   position: absolute;
-  top: -30%;
-  right: -10.9%;
+  top: -108px;
+  right: -124px;
+  object-fit:contain;
   
 }
 .mobile-carousel {
@@ -60,7 +69,9 @@ margin-bottom:88px ;
   .wp-carousel-section .custom-next-buttonMob {
     display: none;
    }
-
+.wp-carousel-section .react-multi-carousel-track {
+  gap: 2px;
+}
 .wp-carousel-section .react-multi-carousel-list {
   overflow: hidden;
   user-select: none;
@@ -88,7 +99,7 @@ margin-bottom:88px ;
   margin: auto;
   margin-bottom: 30px;
   text-align: center;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 0px 0px 0px;
   line-height: 104%;
 }
 
@@ -164,6 +175,7 @@ margin-bottom:88px ;
   font-weight: 700;
   line-height: 104%;
   text-align: start;
+  margin-bottom: 0;
 }
 
 .world-of-possibilities-card span {
@@ -300,24 +312,30 @@ margin-bottom:88px ;
 
   .world-of-possibilities-main {
     margin: 0px 10px 0px 10px;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     border-radius: 38px;
-  margin-top: 350px;
-
+  margin-top: 290px;
+  }
+  .wp-carousel-main {
+    height:420px ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+   /* transform: translateY(80px); */
+    z-index: 10;
+  margin-top: -285px;
+  
   }
   .wp-carousel-section {
     max-width: 90%;
-    height: 411px;
-    border-radius: 48px;
-    margin-top: -300px;
-    margin-bottom: 60px;
+    height: 350px;
+    border-radius: 38px;
+    /* margin-top: -300px; */
+    /* margin-bottom: 60px; */
   }
   .carousel-cap {
-    width: 105px;
-    height: 108px;
-    position: absolute;
-    top: -10%;
-    right: -6%;
+    display: none;
   }
    .wp-carousel-section .custom-prev-button2,
    .wp-carousel-section .custom-next-button2 {
@@ -337,7 +355,9 @@ margin-bottom:88px ;
      z-index: 5;
    }
    
-
+   .wp-carousel-section .react-multi-carousel-track {
+    gap: 1px;
+  }
    .carousel-container {
      height: 200px;
    }
@@ -527,24 +547,36 @@ margin-bottom:88px ;
 
   .world-of-possibilities-main {
     margin: 0px 10px 0px 10px;
-    margin-top: 471px;
+    margin-top: 450px;
     padding-top: 40px;
     border-radius: 38px;
+  }
+  .wp-carousel-main {
+    height:400px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   /* transform: translateY(80px); */
+    z-index: 10;
+  margin-top: -440px;
+  
   }
   .desktop-carousel {
     display: none;
   }
   .mobile-carousel {
     display: block;
+    position: relative;
   }
   .wp-carousel-section {
     max-width: 95%;
     width: 95%;
-    height: 421px;
+    height: 365px;
     border-radius: 38px;
-    margin-top: -480px;
-    padding-top: 32px;
-    padding-bottom: 40px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 28px;
     margin-bottom: 50px;
 
    }
@@ -564,18 +596,18 @@ margin-bottom:88px ;
   .wp-carousel-section .custom-next-buttonMob {
     display: block;
      position: absolute;
-     top: 65%;
+     top: 40%;
      width: 38px;
      height: 38px;
    }
    
    .wp-carousel-section .custom-prev-buttonMob {
-     left: -10px;
+     left: 0px;
      z-index: 5;
    }
    
    .wp-carousel-section .custom-next-buttonMob {
-     right: -10px;
+     right: 0px;
      z-index: 5;
    }
  
@@ -614,7 +646,7 @@ margin-bottom:88px ;
     max-width: 90%;
     margin: auto;
     text-align: center;
-    padding: 0px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
     line-height: 104%;
   }
 
@@ -631,15 +663,15 @@ margin-bottom:88px ;
     margin-top: 30px;
     border-bottom: none;
     padding-top: 30px;
-    height: 650px;
+    height: 700px;
     position: relative;
   }
 
   .breathing-image {
     position: absolute;
-    top: 10%;
-    width: 172px;
-    height: 172px;
+    top: 7%;
+    width: 152px;
+    height: 152px;
   }
 
   .world-of-possibilities-cards {

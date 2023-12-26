@@ -1,8 +1,9 @@
 /* Review section */
 
 .review-section-main {
-  margin-top: 80px;
+  margin-top: 0px;
   margin-bottom: 80px;
+  user-select: none;
 }
 .review-section-main h1 {
   max-width: 791px;
@@ -156,6 +157,7 @@
 }
 
 .user-review-card {
+  pointer-events: none;
   max-width: 514px;
   min-width: 514px;
   border: 1px solid rgba(18, 104, 44, 0.192);

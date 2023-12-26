@@ -335,7 +335,9 @@ line-height: 136%;
 
 @media only screen and (max-width: 640px) {
   /* ICF certification section */
-
+.icf-certification-main {
+  background-color: white;
+}
   .icf-certification-pattern-1 {
     display: none;
   }
@@ -390,7 +392,9 @@ line-height: 136%;
   }
 
   .icf-certification-sub {
-    padding-top: 20px;
+    padding-top: 42px;
+    margin-top: 56px;
+    background-color: #EBFCFF;
   }
 .icf-certification-sub img {
 

@@ -81,9 +81,10 @@
 .why-dba-inner-container {
     width: 905px;
     margin: auto;
-    padding: 10px 0px 0px 40px;
+    padding: 10px 0px 35px 40px;
     border-radius: 68px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+
 
 }
 
@@ -219,7 +220,7 @@
 
     .why-dba-inner-container {
         width: 90%;
-        padding: 0px 0px 0px 40px;
+        padding: 0px 0px 20px 40px;
         border-radius: 50px;
         margin-bottom: 40px;
 
@@ -311,7 +312,7 @@
 
     .why-dba-inner-container {
         width: 90%;
-        padding: 0px 0px 0px 24px;
+        padding: 0px 0px 15px 24px;
         border-radius: 34px;
     }
 

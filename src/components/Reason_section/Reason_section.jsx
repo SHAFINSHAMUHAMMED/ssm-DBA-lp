@@ -37,7 +37,7 @@ function Reason_section() {
           </h5>
         </div>
         <img className="pattern" src={pattern} alt="pattern" />
-        <h5 className="reason-h5 not-because ">Not because of:</h5>
+        <h5 className="reason-h5  ">Not because of:</h5>
         <div className="not-because">
           <div className="">
             <svg
@@ -112,13 +112,13 @@ function Reason_section() {
         <p className="main-p reason-mid-p">
           By ignoring this 1 step …<br />
           Employees lost all motivation to operate small tasks or execute big
-          company decisions. <br />  Because of weak management, businesses that
+          company decisions. <br /> Because of weak management, businesses that
           were once profitable touch 0 quickly. <br />
           <br />
           But companies that survived followed the 1 step called <span className="underline-green">discipline.</span>{" "}
           <br />
           <br />
-          A disciplined work culture teaches employees to never lose hope {" "}
+          A disciplined work culture teaches employees to never lose hope {" "}
           <br />
           <br />
           … and keep pushing their best foot during hard times.  <br />

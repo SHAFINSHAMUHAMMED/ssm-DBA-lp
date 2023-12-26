@@ -68,9 +68,10 @@ h6 {
   font-family: 'SK Modernist Regular';
   font-size: 18px;
 }
-#root {
-  /* overflow-x: hidden; */
-}
+/* .body {
+  overflow-x:hidden ;
+} */
+
 button {
   font-family: 'SK Modernist Bold';
   color: #FFF;

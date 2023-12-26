@@ -20,7 +20,7 @@ function buttonDark({ containerStyle, duration }) {
         smooth={true}
         duration={duration}
         delay={200}
-        className="light-effect-button button bg-[#09606C] w-[95%] sm:w-[539px]  rounded-[56px] sm:rounded-[91px] pt-[25px] pb-[25px] text-[15px] md:text-[16px] xl:text-[23px] font-bold"
+        className="light-effect-button button bg-[#0B434B] w-[95%] sm:w-[539px]  rounded-[56px] sm:rounded-[91px] pt-[25px] pb-[25px] text-[15px] md:text-[16px] xl:text-[23px] font-bold"
       >
         <span>Claim Your Free Consultation Now</span>
       </Link>

@@ -83,6 +83,7 @@ function world_of_possibilities() {
   
   return (
       <div className="world-of-possibilities-main">
+     <div className='wp-carousel-main'>
         <div className="wp-carousel-section">
           <img className="carousel-cap" src={cap} alt="" />
           <h2 className="main-head-h2">
@@ -237,6 +238,7 @@ function world_of_possibilities() {
         </button>
     </div>
     
+        </div>
         </div>
         <h1>
           <span className="wavy-underline-green">A World of</span>{" "}

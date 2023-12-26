@@ -1,7 +1,8 @@
 .carousel {
   max-width: 1180px;
   margin: auto;
-  transform: translateY(-105px);
+  /* transform: translateY(-150px); */
+  margin-top: -170px;
   background: white;
   border-radius: 55px;
   font-weight: bold;
@@ -13,16 +14,31 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 252px;
+  width: 291px;
+  height: 247px;
   padding: 0px 20px 0px 20px;
+}
+.carousel-card:hover {
+  border-radius: 40px;
+border: 1px solid #FFF;
+background: #0C93A7;
+box-shadow: 0px 18px 41.8px 0px rgba(0, 156, 179, 0.33);
+}
+.carousel-card:hover .carousel-svg circle {
+  fill: rgba(255, 255, 255, 0.50);
+}
+.carousel-card:hover .carousel-svg path {
+  fill: white;
 }
 
 .carousel h4 {
-  font-family: 'SK Modernist Bold';
-  ;
+  font-family: 'SK Modernist Bold';;
   font-size: 22px;
 }
+.carousel h4:hover {
+color: #FFF;
 
+}
 .carousel-svg {
   width: 73px;
   height: 73px;
@@ -33,7 +49,8 @@
     max-width: 90%;
     margin: 0px 20px 0px 20px;
     margin: auto;
-    transform: translateY(-40px);
+    /* transform: translateY(-55px); */
+    margin-top: -55px;
     background: white;
     border-radius: 20px;
     font-weight: bold;
@@ -48,7 +65,23 @@
     padding: 25px 50px 15px 50px;
     width: 250px;
   }
+  .carousel-card:hover {
+    border: none; /* Unset border or set it to initial style */
+    background: transparent; /* Revert to initial background */
+    box-shadow: none; /* Remove shadow */
+  }
 
+  .carousel-card:hover .carousel-svg circle {
+    fill: inherit; /* Revert to the initial fill color */
+  }
+
+  .carousel-card:hover .carousel-svg path {
+    fill: inherit; /* Revert to the initial fill color */
+  }
+
+  .carousel h4:hover {
+    color: inherit; /* Revert to initial text color */
+  }
   .carousel .react-multi-carousel-item {
     display: flex;
     justify-content: center !important;
@@ -61,7 +94,6 @@
 
   .carousel h4 {
     font-family: 'SK Modernist Bold';
-    ;
     font-size: 17px;
   }
 
@@ -69,11 +101,13 @@
     overflow-x: hidden;
     overflow-y: hidden;
     align-items: flex-start;
-    height: 200px;
+    height: 290px;
   }
 
   .carousel .react-multi-carousel-dot-list {
     gap: 10px;
+    height: 20px;
+    align-items: center;
 
   }
 
@@ -99,7 +133,8 @@
     max-width: 90%;
     margin: 0px 20px 0px 20px;
     margin: auto;
-    transform: translateY(-45px);
+    /* transform: translateY(-45px); */
+    margin-top: -45px;
     background: white;
     border-radius: 20px;
     font-weight: bold;
@@ -117,7 +152,7 @@
     padding: 25px 20px 15px 20px;
     z-index: 10;
   }
-
+  
   .carousel-svg {
     width: 56px;
     height: 56px;

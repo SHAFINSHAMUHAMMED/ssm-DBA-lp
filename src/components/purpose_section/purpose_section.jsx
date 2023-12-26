@@ -41,7 +41,7 @@ function purpose_section() {
         {/* 3 */}
         <div className='purpose-card'>
            <div className='purpose-text'>
-            <h4>“Its’s never too late if you are looking to  elevate
+            <h4>“Its’s never too late if you are looking to  elevate <br />
 your career, expand your network and your industry reputation i urgue you to enroll at learners university “</h4>
                 <h5>-  Wynona, (DBA Finance )</h5>
            </div>

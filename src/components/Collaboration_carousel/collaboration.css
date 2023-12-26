@@ -1,4 +1,7 @@
 /* Acreditions part */
+.accredit-main {
+  user-select: none;
+}
 .acredits-marquee-1 {
     display: block;
   }
@@ -41,6 +44,8 @@
     background: #FFF;
     border: 1px solid rgba(145, 143, 143, 0.249);
     overflow: hidden;
+    user-select: none;
+    pointer-events: none;
   
   }
   

@@ -16,8 +16,9 @@ function why_dba() {
         Why DBA Leadership Program Always{" "}
         <span className="wavy-underline-green">
           {" "}
+
           <span className="text-[#259D4A]"> Worth </span>{" "}
-          <span className="text-[#108FA1]"> 3x </span>{" "}
+         <span className="text-[#108FA1]"> 3x </span>{" "}
         </span>{" "}
         <span className="text-[#259D4A]">
           <span className="wavy-underline-green">Higher</span> Than Most Phds

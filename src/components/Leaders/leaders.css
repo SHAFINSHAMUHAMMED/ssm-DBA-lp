@@ -6,6 +6,7 @@
     position: relative;
     border-top-left-radius: 48px;
     border-top-right-radius: 48px;
+    margin-top: 80px;
 
 }
 .leaders-top-icon {
@@ -95,6 +96,7 @@
         width: 80%;
         padding: 41px 52px 32px 58px ;
         position: relative;
+        margin-top: 60px;
     }
     .leaders-top-main h2 {
         width: 90%;
@@ -175,6 +177,7 @@
         padding: 34px 0px 30px 0px ;
         border-top-left-radius: 38px;
     border-top-right-radius: 38px;
+    margin-top: 70px;
     }
     .leaders-top-icon {
         width: 64px;

@@ -4,7 +4,7 @@
   background-image: url('../../assets/background-img.webp');
   object-fit: contain;
   background-repeat: no-repeat;
-  padding: 70px 0px 30px 0px;
+  padding: 20px 0px 60px 0px;
   margin-top: 50px;
 }
 
@@ -83,7 +83,7 @@
   /* 100% student support guarantee section */
 
   .student-support-main {
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0px 35px 0px;
     margin-top: 20px;
   }
 
@@ -106,7 +106,7 @@
   }
 
   .student-support-sub p {
-    max-width: 305px;
+    max-width: 90%;
     text-align: left;
     font-size: 16px;
   }

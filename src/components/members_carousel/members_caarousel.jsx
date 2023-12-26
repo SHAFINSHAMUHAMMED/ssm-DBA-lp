@@ -46,7 +46,7 @@ function members_caarousel() {
   const membersData = [
     {
       id: 1,
-      name: 'Name1',
+      name: 'Name',
       designation: 'Designation1',
       image: member
     },

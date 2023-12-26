@@ -2,6 +2,7 @@
 
 .successful-graduates-main {
   margin-bottom: 45px;
+  pointer-events: none;
 }
 
 .successful-graduates-sub-1 {

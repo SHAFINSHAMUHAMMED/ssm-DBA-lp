@@ -62,7 +62,7 @@
 }
 .pattern {
     position: absolute;
-    top:50%;
+    top:20%;
     right: -5%;
 
 }
@@ -95,16 +95,17 @@ line-height: 136%; /* 30.065px */
 .reason-mid-p {
     width: 578px;
     margin-top: 48px;
+    line-height: 25px;
 }
 .pattern2 {
     position: absolute;
-    bottom:-5%;
+    bottom:-6%;
     right: -50px;
 }
 .reason-bottom-section {
     width: 820px;
     margin: auto;
-    padding-bottom:46px ;
+    padding-bottom:76px ;
     box-shadow: 0px 31px 51.8px 15px rgba(165, 191, 194, 0.30);
 }
 .reason-bottom-img {
@@ -116,6 +117,7 @@ line-height: 136%; /* 30.065px */
 
 .reason-bottom-cards {
     margin-top: -40px;
+    margin-bottom: 46px;
     position: relative;
     z-index: 2;
 }
@@ -277,7 +279,8 @@ line-height: 136%; /* 30.065px */
     }
     .reason-top-section h2 {
         color: white;
-        width: 100%;
+        width: 90%;
+        margin:0 auto 0 auto ;
         text-align: center;
     }
 
@@ -306,8 +309,8 @@ line-height: 136%; /* 30.065px */
         border-radius: 67px;
         border: 0.36px solid #C6C6C6; 
         margin-bottom:20px ;
-        padding-left: 13px;
-        margin-left: 10px;
+        margin-left: 26px;
+        padding-left: 10px;
     }
     .reason-card img {
         width:63px ;
@@ -315,7 +318,7 @@ line-height: 136%; /* 30.065px */
     }
     .reason-h5 {
         font-size: 13px;
-        padding-left: 25p;
+        padding-left: 25px;
     }
     .pattern {
        display: none;
@@ -368,6 +371,7 @@ line-height: 136%; /* 30.065px */
     }
     .reason-bottom-cards {
         margin-top: -40px;
+        margin-bottom: 50px;
         position: relative;
         z-index: 2;
         width: 100%;
