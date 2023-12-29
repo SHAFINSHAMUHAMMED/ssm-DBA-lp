@@ -1,144 +1,140 @@
-.world-of-possibilities-brochure {
-    width: 100%;
-    background-color: #0C434B;
-    background-image: url("../../assets/pattern-bg.webp");
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
-    padding: 0px 55px 0px 80px;
-    display: flex;
+/* .world-of-possibilities-brochure {
+  width: 100%;
+  background-color: #0C434B;
+  background-image: url("../../assets/pattern-bg.webp");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding: 0px 55px 0px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.world-of-possibilities-brochure h2 {
+  color: white;
+  width: 600px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.world-of-possibilities-brochure h3 {
+  color: white;
+}
+
+.possibilities-p {
+  width: 506px;
+  color: rgba(255, 255, 255, 0.76);
+  margin-bottom: 20px;
+
+}
+
+.swiss-img-1 {
+  width: 403px;
+  display: block;
+
+}
+
+.swiss-img-2 {
+  display: none;
+}
+
+
+@media only screen and (max-width: 1180px) {
+  .world-of-possibilities-brochure {
+    padding: 20px 30px 20px 30px;
     justify-content: center;
     align-items: center;
   }
-  
+
   .world-of-possibilities-brochure h2 {
-    color: white;
-    width: 600px;
     margin-bottom: 30px;
     text-align: left;
+    width: 90%;
   }
-  
-  .world-of-possibilities-brochure h3 {
-    color: white;
-  }
-  
+
   .possibilities-p {
-    width: 506px;
-    color: rgba(255, 255, 255, 0.76);
+    width: 90%;
     margin-bottom: 20px;
-    
+
   }
-  
+
+  .world-of-possibilities-brochure h3 {
+    font-size: 16px;
+  }
+
+  .world-of-possibilities-brochure svg {
+    width: 21px;
+    height: 18px;
+  }
+
   .swiss-img-1 {
-    width: 403px;
-    display: block;
-  
+    display: none;
   }
-  
+
+  .swiss-img-2 {
+    display: block;
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .world-of-possibilities-brochure {
+    background-image: url("../../assets/pattern-bg-mob.webp");
+    background-position: bottom;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    padding: 0px 10px 0px 10px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .world-of-possibilities-brochure h2 {
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .possibilities-p {
+    margin: auto;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 20px;
+  }
+
+  .brochure-dwnld {
+    width: 90%;
+    margin: auto;
+  }
+
+  .world-of-possibilities-brochure h3 {
+    margin: auto;
+    font-size: 16px;
+    padding-left: 20px;
+  }
+
+  .world-of-possibilities-brochure svg {
+    width: 21px;
+    height: 18px;
+  }
+
+  .swiss-img-1 {
+    width: 358px;
+    display: block;
+
+  }
+
   .swiss-img-2 {
     display: none;
   }
-  
+
   .world-of-possibilities-brochure-left {
-    /* margin: auto; */
+    width: 100%;
+    padding: 0px 0px 0px 0px
   }
 
-  @media only screen and (max-width: 1180px) {
-    .world-of-possibilities-brochure {
-        padding: 20px 30px 20px 30px;
-        justify-content: center;
-        align-items: center;
-      }
-    
-      .world-of-possibilities-brochure h2 {
-        margin-bottom: 30px;
-        text-align: left;
-        width: 90%;
-      }
-    
-      .possibilities-p {
-        width: 90%;
-        margin-bottom: 20px;
-    
-      }
-    
-      .world-of-possibilities-brochure h3 {
-        font-size: 16px;
-      }
-    
-      .world-of-possibilities-brochure svg {
-        width: 21px;
-        height: 18px;
-      }
-    
-      .swiss-img-1 {
-        display: none;
-      }
-    
-      .swiss-img-2 {
-        display: block;
-        width: 280px;
-      }
-    
-      .world-of-possibilities-brochure-left {
-      }
-  }
-
-  @media only screen and (max-width: 640px) {
-    .world-of-possibilities-brochure {
-        background-image: url("../../assets/pattern-bg-mob.webp");
-        background-position: bottom;
-        background-size: 100% 50%;
-        background-repeat: no-repeat;
-        padding: 0px 10px 0px 10px;
-        margin: auto;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-    
-      .world-of-possibilities-brochure h2 {
-        margin: auto;
-        margin-bottom: 30px;
-        margin-top: 50px;
-        text-align: center;
-        width: 90%;
-      }
-    
-      .possibilities-p {
-        margin: auto;
-        margin-bottom: 20px;
-        padding-right: 30px;
-        padding-left: 20px;
-      }
-      .brochure-dwnld {
-        width: 90%;
-        margin: auto;
-      }
-      .world-of-possibilities-brochure h3 {
-        margin: auto;
-        font-size: 16px;
-        padding-left: 20px;
-      }
-    
-      .world-of-possibilities-brochure svg {
-        width: 21px;
-        height: 18px;
-      }
-    
-      .swiss-img-1 {
-        width: 358px;
-        display: block;
-    
-      }
-    
-      .swiss-img-2 {
-        display: none;
-      }
-    
-      .world-of-possibilities-brochure-left {
-        width: 100%;
-        padding: 0px 0px 0px 0px
-      }
-    
-  }
+} */

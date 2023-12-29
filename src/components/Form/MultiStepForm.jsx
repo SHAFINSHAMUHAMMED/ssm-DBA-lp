@@ -18,7 +18,7 @@ const MultiStepForm = () => {
 
   const [formData, setFormData] = useState({
     name: "",
-    specialization: "",
+    // specialization: "",
     jobRole: "",
     // location: "",
     email: "",
@@ -43,13 +43,13 @@ const MultiStepForm = () => {
           isValid = false;
         }
         break;
+      // case 2:
+      //   if (!formData.specialization.trim()) {
+      //     errors.specialization = "Specialization is required";
+      //     isValid = false;
+      //   }
+      //   break;
       case 2:
-        if (!formData.specialization.trim()) {
-          errors.specialization = "Specialization is required";
-          isValid = false;
-        }
-        break;
-      case 3:
         if (!formData.jobRole.trim()) {
           errors.jobRole = "Job role is required";
           isValid = false;
@@ -61,7 +61,7 @@ const MultiStepForm = () => {
       //     isValid = false;
       //   }
       //   break;
-      case 4:
+      case 3:
         if (!formData.email.trim()) {
           errors.email = "Email is required";
           isValid = false;
@@ -70,7 +70,7 @@ const MultiStepForm = () => {
           isValid = false;
         }
         break;
-        case 5:
+        case 4:
     const digits = formData.whatsapp.replace(/\D/g, '');
     if (!formData.whatsapp.trim()) {
       errors.whatsapp = "WhatsApp number is required";
@@ -93,9 +93,9 @@ const MultiStepForm = () => {
 
   const nextStep = () => {
     if (validateCurrentStep()) {
-      if (currentStep < 5) {
+      if (currentStep < 4) {
         setCurrentStep(currentStep + 1);
-        setShowAnimation(currentStep + 1 < 5);
+        setShowAnimation(currentStep + 1 < 4);
         // console.log(currentStep);
       } else {
         setShowAnimation(false);
@@ -103,18 +103,16 @@ const MultiStepForm = () => {
       }
     }
   };
-  const specializationOptions = [
-    "DBA in General",
-    "DBA in Finance",
-    "DBA in Global Management & Leadership",
-    "DBA in Health Safety & Environment ",
-    "DBA in Healthcare Management ",
-    "DBA in Human Resources ",
-    "DBA in Marketing ",
-    "DBA in Supply Chain Management"
-
-    // Add optins
-  ];
+  // const specializationOptions = [
+  //   "DBA in General",
+  //   "DBA in Finance",
+  //   "DBA in Global Management & Leadership",
+  //   "DBA in Health Safety & Environment ",
+  //   "DBA in Healthcare Management ",
+  //   "DBA in Human Resources ",
+  //   "DBA in Marketing ",
+  //   "DBA in Supply Chain Management"
+  // ];
 
   const handleSubmit = async () => {
     setIsLoading(true);
@@ -155,7 +153,7 @@ const MultiStepForm = () => {
   const renderForm = () => {
     const handleKeyPress = (e) => {
       if (e.key === "Enter") {
-        if (currentStep < 5) {
+        if (currentStep < 4) {
           nextStep();
         }else {
           handleSubmit()
@@ -181,33 +179,33 @@ const MultiStepForm = () => {
             {renderError("name")}
           </>
         );
-      case 2:
-        return (
-          <>
-            <h2>
-              Awesome, {formData.name}! Which specialization sparks your
-              interest?
-            </h2>
-            <p>We want to make sure your journey is tailored just for you.</p>
-            <div class="custom-select">
-  <select
-    name="specialization"
-    value={formData.specialization}
-    onChange={handleChange}
-  >
-    <option value="">Select Specialization</option>
-    {specializationOptions.map((option, index) => (
-      <option key={index} value={option}>
-        {option}
-      </option>
-    ))}
-  </select>
-</div>
+//       case 2:
+//         return (
+//           <>
+//             <h2>
+//               Awesome, {formData.name}! Which specialization sparks your
+//               interest?
+//             </h2>
+//             <p>We want to make sure your journey is tailored just for you.</p>
+//             <div class="custom-select">
+//   <select
+//     name="specialization"
+//     value={formData.specialization}
+//     onChange={handleChange}
+//   >
+//     <option value="">Select Specialization</option>
+//     {specializationOptions.map((option, index) => (
+//       <option key={index} value={option}>
+//         {option}
+//       </option>
+//     ))}
+//   </select>
+// </div>
 
-            {renderError("specialization")}
-          </>
-        );
-      case 3:
+//             {renderError("specialization")}
+//           </>
+//         );
+      case 2:
         return (
           <>
             <h2>What's your current job role?</h2>
@@ -240,7 +238,7 @@ const MultiStepForm = () => {
       //       {renderError("location")}
       //     </>
       //   );
-      case 4:
+      case 3:
         return (
           <>
             <h2>
@@ -258,7 +256,7 @@ const MultiStepForm = () => {
             {renderError("email")}
           </>
         );
-        case 5:
+        case 4:
         return (
           <>
             <h2>
@@ -288,16 +286,16 @@ const MultiStepForm = () => {
       {renderForm()}
       <div className="button-wrapper">
   <button type="button" onClick={nextStep} >
-  {currentStep < 5 && "CONTINUE"}
-  {currentStep === 5 && !isLoading && "Claim Your Free Consultation Now"}
-    {currentStep < 5 && showAnimation && (
+  {currentStep < 4 && "CONTINUE"}
+  {currentStep === 4 && !isLoading && "Claim Your Free Consultation Now"}
+    {currentStep < 4 && showAnimation && (
       <Lottie
         animationData={arrow}
         loop={true}
         className="icf-button-lottie"
       />
     )}
-    {currentStep === 5 && isLoading && (
+    {currentStep === 4 && isLoading && (
     <ClipLoader color={"#ffffff"} size={20} />
   )}
   </button>

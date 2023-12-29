@@ -78,7 +78,7 @@ function ResponsiveCarousel() {
             </defs>
           </svg>
 
-          <h4 className="text-sm sm:text-base">Balanced Work-Life Structure</h4>
+          <h4 className="text-sm sm:text-base card-h4">Balanced Work-Life Structure</h4>
         </div>
         {/* <Divider /> */}
         <div className="carousel-card ">
@@ -111,7 +111,7 @@ function ResponsiveCarousel() {
             </g>
           </svg>
 
-          <h4 className="text-sm sm:text-base">
+          <h4 className="text-sm sm:text-base card-h4">
             Complete in <br /> 12 Months
           </h4>
         </div>
@@ -146,7 +146,7 @@ function ResponsiveCarousel() {
             </g>
           </svg>
 
-          <h4 className="text-sm sm:text-base">Industry-Leading Faculties</h4>
+          <h4 className="text-sm sm:text-base card-h4">Industry-Leading Faculties</h4>
         </div>
         {/* <Divider /> */}
         <div className="carousel-card">
@@ -179,7 +179,7 @@ function ResponsiveCarousel() {
             </g>
           </svg>
 
-          <h4 className="text-sm sm:text-base">
+          <h4 className="text-sm sm:text-base card-h4">
             Scholarships Available: Save Up to 30%
           </h4>
         </div>

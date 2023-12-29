@@ -10,6 +10,8 @@ import businet from "../../assets/svg/Accredit-businet-icon.svg";
 import chea from "../../assets/svg/Accredit-chea-icon.svg";
 import xila from "../../assets/svg/Accredit-xila-icon.svg";
 import indian from "../../assets/svg/Accredit-indian-icon.svg";
+import un from "../../assets/svg/Accredit-un-icon.svg"
+import iacbe from "../../assets/svg/Accredit-iacbe-icon.svg"
 
 function collaboration_carousel() {
   return (
@@ -40,7 +42,7 @@ function collaboration_carousel() {
                 <img src={chea} alt="" />
               </div>
               <div class="accredit-card">
-                <img src={iao1} alt="" />
+                <img src={iacbe} alt="" />
               </div>
               <div class="accredit-card">
                 <img src={xila} alt="" />
@@ -65,9 +67,9 @@ function collaboration_carousel() {
               <div class="accredit-card">
                 <img className="accredit-card-img" src={eduqua} alt="" />
               </div>
-              <div class="accredit-card">
+              {/* <div class="accredit-card">
                 <img className="accredit-card-img" src={usrLazio} alt="" />
-              </div>
+              </div> */}
               <div class="accredit-card">
                 <img className="accredit-card-img" src={indian} alt="" />
               </div>
@@ -79,9 +81,6 @@ function collaboration_carousel() {
           <Marquee direction="right" pauseOnClick="true">
             <div class="accredit-cards">
               <div class="accredit-card">
-                <img className="accredit-card-img" src={iao1} alt="" />
-              </div>
-              <div class="accredit-card">
                 <img className="accredit-card-img" src={usrLazio} alt="" />
               </div>
               <div class="accredit-card">
@@ -91,11 +90,14 @@ function collaboration_carousel() {
                 <img className="accredit-card-img" src={xila} alt="" />
               </div>
               <div class="accredit-card">
-                <img className="accredit-card-img" src={businet} alt="" />
+                <img className="accredit-card-img" src={iacbe} alt="" />
               </div>
               <div class="accredit-card">
-                <img className="accredit-card-img" src={indian} alt="" />
+                <img className="accredit-card-img" src={un} alt="" />
               </div>
+              {/* <div class="accredit-card">
+                <img className="accredit-card-img" src={indian} alt="" />
+              </div> */}
             </div>
           </Marquee>
         </div>

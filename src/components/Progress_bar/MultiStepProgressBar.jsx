@@ -36,7 +36,7 @@ const checkmarkSvg = (
 );
 
 const MultiStepProgressBar = ({ currentStep }) => {
-  const totalSteps = 5;
+  const totalSteps = 4;
 
   return (
     <div className="progress-container-main">

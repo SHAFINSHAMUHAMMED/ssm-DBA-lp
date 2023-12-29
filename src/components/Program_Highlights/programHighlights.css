@@ -1,5 +1,4 @@
-/* Program-Highlights section */
-
+/* 
 .highlight-main {
   background-image: url('../../assets/highlight_bg.webp');
   background-size: cover;
@@ -33,7 +32,6 @@
   grid-template-columns: repeat(2, 1fr);
   max-width: 1000px;
   margin: auto;
-  /* margin-bottom: 70px; */
   padding-top: 105px;
   border-radius: 70px;
 }
@@ -103,7 +101,6 @@
 }
 
 @media only screen and (max-width: 1180px) {
-  /* program-highlights */
 
   .highlight-main {
     padding-top: 33px;
@@ -172,7 +169,6 @@
 }
 
 @media only screen and (max-width: 640px) {
-  /* program-highlights */
 
   .highlight-main {
     position: relative;
@@ -247,4 +243,4 @@
     height: 66px;
     display: inline-block;
   }
-}
+} */

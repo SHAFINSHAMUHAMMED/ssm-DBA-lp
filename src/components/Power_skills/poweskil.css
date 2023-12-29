@@ -1,4 +1,4 @@
-.power-skill-main {
+/* .power-skill-main {
   padding-bottom: 80px;
   overflow: hidden;
   margin-top: 85px;
@@ -23,13 +23,13 @@
   align-items: flex-start;
 }
 
-  .power-skill-card-main {
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.power-skill-card-main {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-  }
+}
 
 .power-skill-star {
   width: 300px;
@@ -87,8 +87,6 @@
 
 @media only screen and (max-width: 1180px) {
 
-/* 6-power-skills section */
-
   .power-skill-main {
     margin-top: 50px;
   }
@@ -142,7 +140,7 @@
   }
 
   .power-skill-card-icon {
-    width:72px ;
+    width: 72px;
     height: 72px;
     position: absolute;
     left: -20px;
@@ -157,8 +155,6 @@
 
 
 @media only screen and (max-width: 640px) {
-
-/* 6-power-skills section */
 
   .power-skill-main {
     padding-bottom: 36px;
@@ -221,5 +217,4 @@
     width: 100%;
   }
 
-}
-
+} */

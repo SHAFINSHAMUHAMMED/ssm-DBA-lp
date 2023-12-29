@@ -17,7 +17,7 @@ function Reason_section() {
       <div className="reason-top-section">
         <h2 className="main-head-h2">
           <span className="highlight-green">Why</span> Choose{" "}
-          <span className="highlight-green"> SSM DBA </span> for Advancing Your
+          <span className="highlight-green"> Swiss DBA </span> for Advancing Your
           Research & Leadership Skills?
         </h2>
       </div>
@@ -111,8 +111,8 @@ function Reason_section() {
         </div>
         <p className="main-p reason-mid-p">
           By ignoring this 1 step …<br />
-          Employees lost all motivation to operate small tasks or execute big
-          company decisions. <br /> Because of weak management, businesses that
+          <span className="block mt-2 mb-2">Employees lost all motivation to operate small tasks or execute big
+          company decisions. <br /></span> Because of weak management, businesses that
           were once profitable touch 0 quickly. <br />
           <br />
           But companies that survived followed the 1 step called <span className="underline-green">discipline.</span>{" "}
