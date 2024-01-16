@@ -1,10 +1,10 @@
 /* Review section */
 
 .review-section-main {
-  margin-top: 0px;
-  margin-bottom: 80px;
-  user-select: none;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
+
 .review-section-main h1 {
   max-width: 791px;
   margin: auto;
@@ -15,7 +15,7 @@
 
 .review-video-main {
   max-width: 90%;
-  height: 100%;
+  height: 708px;
   margin: auto;
   margin-top: 53px;
   position: relative;
@@ -34,22 +34,29 @@
   position: relative;
   padding-top: 40.25%;
   z-index: 0;
+  background-color: rgb(3, 3, 3);
 }
+
 .player-container iframe {
   width: 100%;
   height: 100%;
 }
+
 .player-container svg {
   width: 140px;
   height: 140px;
 }
 
-.custom-play-button {
+.player-container img {
+  width: 100%;
+}
+
+.custom-play-button2 {
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
+  top: 40%;
+  width: 144px;
+  height: 144px;
 }
 
 .pulse-circle {
@@ -75,20 +82,20 @@
   }
 }
 
-.review-video-main .custom-prev-button,
-.review-video-main .custom-next-button {
+.custom-prev-button,
+.custom-next-button {
   position: absolute;
   top: 50%;
   width: 59px;
   height: 59px;
 }
 
-.review-video-main .custom-prev-button {
+.custom-prev-button {
   left: -30px;
   z-index: 5;
 }
 
-.review-video-main .custom-next-button {
+.custom-next-button {
   right: -30px;
   z-index: 5;
 }
@@ -124,7 +131,6 @@
   width: 100%;
   border-radius: 27px;
   position: relative;
-  border: 2px solid white;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -132,13 +138,17 @@
   user-select: none;
 }
 
-.review-video-sub-card img {
+.review-video-thumb-img {
   border-radius: 27px;
   max-height: 100%;
   user-select: none;
   cursor: pointer;
   pointer-events: none;
 }
+
+/* .review-video-thumb-img-mob {
+  display: none;
+} */
 
 .play-button {
   position: absolute;
@@ -157,7 +167,6 @@
 }
 
 .user-review-card {
-  pointer-events: none;
   max-width: 514px;
   min-width: 514px;
   border: 1px solid rgba(18, 104, 44, 0.192);
@@ -204,31 +213,21 @@
 @media only screen and (max-width: 1180px) {
   .review-section-main {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+
   }
+
   .review-section-main h1 {
     max-width: 90%;
-    margin: auto;
-    text-align: center;
-    padding: 0px 10px 0px 10px;
-    line-height: 104%;
   }
 
   .review-video-main {
-    max-width: 90%;
     height: 324px;
-    margin: auto;
-    margin-top: 53px;
   }
 
-  .carousel-container {
-    position: relative;
-  }
 
   .player-container {
     border-radius: 38px;
-    overflow: hidden;
-    height: 100%;
   }
 
   .player-container svg {
@@ -236,9 +235,14 @@
     height: 90px;
   }
 
-  .review-video-main .custom-prev-button,
-  .review-video-main .custom-next-button {
+  .custom-prev-button,
+  .custom-next-button {
     display: none;
+  }
+
+  .custom-play-button2 {
+    left: 45%;
+    top: 40%;
   }
 
   .review-video-sub {
@@ -247,13 +251,13 @@
     background-image: url('../../assets/GraphicPatter3.webp');
     background-position: bottom center;
     background-repeat: no-repeat;
-    margin: 45px 0px 50px 0px;
+    margin: 40px 0px 50px 0px;
     position: relative;
   }
 
   .review-video-sub .react-multi-carousel-list {
     overflow: hidden;
-    transform: translateY(-20%);
+    transform: translateY(-30%);
   }
 
   .review-video-sub .react-multi-carousel-dot-list {
@@ -265,15 +269,18 @@
   }
 
   .review-video-sub-card {
-    width: 100%;
     border-radius: 10px;
   }
 
-  .review-video-sub-card img {
+  .review-video-thumb-img {
     border-radius: 10px;
     max-height: 100%;
     object-fit: contain;
   }
+
+  /* .review-video-thumb-img-mob {
+    display: none;
+  } */
 
   .play-button {
     width: 30%;
@@ -281,49 +288,8 @@
   }
 
   .user-reviews {
-    display: flex;
-    flex-direction: column;
     gap: 15px;
     padding: 10px 0px 45px 0px;
-  }
-
-  .user-review-card {
-    max-width: 514px;
-    min-width: 514px;
-    border: 1px solid rgba(18, 104, 44, 0.192);
-    border-radius: 47px;
-    padding: 50px 56px 40px 40px;
-  }
-
-  .user-review-svg {
-    width: 74px;
-    height: 51px;
-  }
-
-  .user-review-card p {
-    color: #24626A;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 144%;
-    margin-bottom: 60px;
-    height: 260px;
-    user-select: none;
-
-  }
-
-  .review-user-icon {
-    width: 48px;
-    height: 48px;
-  }
-
-  .user-review-card h5 {
-    font-family: 'SK Modernist Bold';
-  }
-
-  .review-verified {
-    width: 157px;
-    height: 28px;
   }
 }
 
@@ -332,8 +298,10 @@
   /* review-section-main */
   .review-section-main {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
+
   }
+
   .review-section-main h1 {
     max-width: 90%;
     padding: 0px 0px 0px 0px;
@@ -348,38 +316,41 @@
   .player-container {
     border-radius: 18px;
     height: 100%;
-    padding-top: 40.25%;
+    padding-top: 56.25%;
   }
- 
+
   .player-container svg {
     width: 76px;
     height: 76px;
   }
 
-  .review-video-main .custom-prev-button,
-  .review-video-main .custom-next-button {
+  .custom-prev-button,
+  .custom-next-button {
     display: none;
+  }
+
+  .custom-play-button2 {
+    left: 40%;
+    top: 30%;
   }
 
   .review-video-sub {
     height: 126px;
     background-image: url('../../assets/GraphicPatter3-mob.webp');
     background-size: 100%;
-    margin: 20px 0px 24px 0px;
+    margin: 40px 0px 24px 0px;
 
   }
 
   .review-video-sub .react-multi-carousel-list {
     overflow: hidden;
-    height: auto;
+    transform: translateY(-20%);
+
   }
-.review-video-sub .react-multi-carousel-item {
-  width: 135px!important;
-}
+
   .review-video-sub-cards {
     gap: 0px;
-    transform: translateY(0px);
-
+    top: 0px;
   }
 
   .review-video-sub-cards .react-multi-carousel-track {
@@ -391,11 +362,15 @@
     border-radius: 10px;
   }
 
-  .review-video-sub-card img {
+  /* .review-video-thumb-img {
+   display: none;
+  } */
+  /* .review-video-thumb-img-mob {
+    display: block;
     border-radius: 10px;
     max-height: 100%;
     object-fit: contain;
-  }
+  } */
 
   .play-button {
     width: 30%;
@@ -404,13 +379,11 @@
 
   .user-reviews {
     gap: 15px;
-    padding-bottom: 35px;
   }
 
   .user-review-card {
     max-width: 384px;
     min-width: 384px;
-    border: 1px solid rgba(18, 104, 44, 0.192);
     border-radius: 35px;
     padding: 38px 40px 30px 30px;
   }
@@ -430,7 +403,6 @@
     margin-bottom: 50px;
     padding: 0px 10px 0px 10px;
     height: 230px;
-    user-select: none;
 
 
   }
