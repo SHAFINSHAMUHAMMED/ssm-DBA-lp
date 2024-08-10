@@ -14,6 +14,7 @@ import xila from "../../assets/svg/Accredit-xila-icon.svg";
 import indian from "../../assets/svg/Accredit-indian-icon.svg";
 import un from '../../assets/svg/Accredit-un-icon.svg'
 import iacbe from "../../assets/svg/Accredit-iacbe-icon.svg"
+import wes from "../../assets/svg/wes-icon.svg"
 import glob_connections from '../../assets/glob-connections.webp'
 
 function Leaders() {
@@ -53,8 +54,11 @@ function Leaders() {
             <div className="card">
             <img src={businet} alt="" />
             </div>
-            <div className="card">
+            {/* <div className="card">
             <img src={chea} alt="" />
+            </div> */}
+            <div className="card">
+            <img src={wes} alt="" />
             </div>
           </div>
           <div className="card-sections">
@@ -105,7 +109,7 @@ function Leaders() {
                 <img className="accredit-card-img" src={iao1} alt="" />
               </div> */}
               <div class="accredit-card">
-                <img className="accredit-card-img" src={usrLazio} alt="" />
+                <img className="accredit-card-img" src={wes} alt="" />
               </div>
               <div class="accredit-card">
                 <img className="accredit-card-img" src={chea} alt="" />

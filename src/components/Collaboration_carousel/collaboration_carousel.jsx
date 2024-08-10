@@ -37,10 +37,13 @@ function collaboration_carousel() {
               <div class="accredit-card">
                 <img src={businet} alt="" />
               </div>
-
               <div class="accredit-card">
-                <img src={chea} alt="" />
+                <img src={un} alt="" />
               </div>
+
+              {/* <div class="accredit-card">
+                <img src={chea} alt="" />
+              </div> */}
               <div class="accredit-card">
                 <img src={iacbe} alt="" />
               </div>
@@ -83,9 +86,9 @@ function collaboration_carousel() {
               <div class="accredit-card">
                 <img className="accredit-card-img" src={usrLazio} alt="" />
               </div>
-              <div class="accredit-card">
+              {/* <div class="accredit-card">
                 <img className="accredit-card-img" src={chea} alt="" />
-              </div>
+              </div> */}
               <div class="accredit-card">
                 <img className="accredit-card-img" src={xila} alt="" />
               </div>

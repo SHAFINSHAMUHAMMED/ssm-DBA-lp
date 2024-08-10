@@ -10,7 +10,7 @@ import 'react-multi-carousel/lib/styles.css';
 // import { usePopup } from "../Hoocks/PopupContext";
 import loreal from "../../assets/icon1-loreal.webp";
 import mashreeq from "../../assets/icon2-mashreeq.webp";
-import rakbank from "../../assets/icon3-rakbank.webp";
+// import rakbank from "../../assets/icon3-rakbank.webp";
 import almarai from "../../assets/icon4-almarai.webp";
 import emiratesNBD from "../../assets/icon5-emirates-nbd.webp";
 import standard_chartered from "../../assets/icon6-standard-chartered.webp";
@@ -133,7 +133,7 @@ function world_of_possibilities() {
     >
       <div className="carousel-img"><img src={loreal} alt="Company Logo" /></div>
       <div className="carousel-img"><img src={mashreeq} alt="Company Logo" /></div>
-      <div className="carousel-img"><img src={rakbank} alt="Company Logo" /></div>
+      {/* <div className="carousel-img"><img src={rakbank} alt="Company Logo" /></div> */}
       <div className="carousel-img"><img src={almarai} alt="Company Logo" /></div>
       <div className="carousel-img"><img src={emiratesNBD} alt="Company Logo" /></div>
       <div className="carousel-img"><img src={standard_chartered} alt="Company Logo" /></div>
@@ -205,7 +205,8 @@ function world_of_possibilities() {
 
         </div>
       <div className="carousel-img">
-        <img src={rakbank} alt="Company Logo" />
+        {/* <img src={rakbank} alt="Company Logo" /> */}
+        <img src={unilever} alt="Company Logo" />
         <img src={almarai} alt="Company Logo" />
         </div>
       <div className="carousel-img">
@@ -218,7 +219,8 @@ function world_of_possibilities() {
         </div>
       <div className="carousel-img">
         <img src={nestle} alt="Company Logo" />
-        <img src={rakbank} alt="Company Logo" />
+        <img src={almarai} alt="Company Logo" />
+        {/* <img src={rakbank} alt="Company Logo" /> */}
         </div>
     </Carousel>
     <button onClick={goToNext2} className=" custom-next-buttonMob">
