@@ -1,6 +1,6 @@
 // import React from 'react'
 // import './brochure.css'
-// import Popup from "../Popup_page/popup";
+// import Popup from "../Popup_page/popup2";
 // import { usePopup } from "../Hoocks/PopupContext";
 
 // import swisMba from "../../assets/swiss-mba.webp";

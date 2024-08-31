@@ -6,7 +6,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css'
 import Carousel from "react-multi-carousel";
 import 'react-multi-carousel/lib/styles.css';
-// import Popup from "../Popup_page/popup";
+// import Popup from "../Popup_page/popup2";
 // import { usePopup } from "../Hoocks/PopupContext";
 import loreal from "../../assets/icon1-loreal.webp";
 import mashreeq from "../../assets/icon2-mashreeq.webp";
