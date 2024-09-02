@@ -3,7 +3,7 @@ import "./hero.css";
 import Button1 from "../Buttons/buttonDark";
 import Lottie from "lottie-react";
 
-import Popup from "../Popup_page/popup2";
+import Popup from "../Popup_page/popupTwo";
 import { usePopup } from "../Hoocks/PopupContext";
 
 import logo from "../../assets/svg/logo.svg";
